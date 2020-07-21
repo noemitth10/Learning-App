@@ -1,2 +1,22 @@
 # Learning-App
 Hungarian grammar learning application with sentence analysis and spelling checker for students
+
+Useful commands
+Install Django in command line
+- pip install django
+
+Check the version of Django
+- python -m django --version
+
+Create new Django project
+- django-admin startproject project_name
+
+Run Django project on server
+- python mamage.py runserver
+
+Starting development server at http://127.0.0.1:8000/
+
+Apply migrations to the project
+- python mamage.py migrate
+
+  
