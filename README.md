@@ -5,18 +5,20 @@ Useful commands
 Install Django in command line
 - pip install django
 
-Check the version of Django
+Check the version of Django and Python
 - python -m django --version
+- python --version
 
 Create new Django project
 - django-admin startproject project_name
 
+Create new Django app within the project
+-python manage.py startapp app_name
+
 Run Django project on server
-- python mamage.py runserver
+- python manage.py runserver
 
 Starting development server at http://127.0.0.1:8000/
 
 Apply migrations to the project
-- python mamage.py migrate
-
-  
+- python manage.py migrate
