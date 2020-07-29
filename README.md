@@ -43,3 +43,21 @@ Create the tables with the migrations
 Make migrations
 
 - python manage.py makemigrations
+
+Install django-cors-headers
+
+- pip install django-cors-headers
+
+Virtual environment
+
+- virtualenv env_name
+- env\scripts\activate
+- pip install -r requirements.txt
+
+React commands
+
+Create new React App
+
+- npx create-react-app app_name
+  Run React project
+- npm start
