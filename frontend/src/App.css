@@ -100,6 +100,37 @@ strike {
 }
 */
 
+/* COntact US Page*/
+.contact-body {
+  margin: auto;
+  position: fixed;
+  justify-content: center;
+  padding-top: 2em;
+  max-width: 65%;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton" sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen" sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
 /* Footer section */
 footer {
   width: 100%;

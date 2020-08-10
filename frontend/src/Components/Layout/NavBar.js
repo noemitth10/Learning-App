@@ -41,9 +41,9 @@ class NavBar extends Component {
           </Nav>
           <Nav>
             <NavDropdown title={navDropDownTitle} id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
+              <NavDropdown.Item href="/login">Login</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Register</NavDropdown.Item>
+              <NavDropdown.Item href="/register">Register</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
