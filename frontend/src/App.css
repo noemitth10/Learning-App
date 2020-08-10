@@ -1,10 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background: rgb(54, 217, 182);
+  min-height: 100%;
+  width: 100%;
+  line-height: 1;
+}
+
+body {
+  background: #67b26f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    90deg,
-    rgba(54, 217, 182, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -62,4 +88,27 @@ strike {
 
 .task-wrapper:hover {
   background-color: #f0f0f0;
+}
+
+/*.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+*/
+
+/* Footer section */
+footer {
+  width: 100%;
+  height: 20%;
+  background-color: #424242;
+  padding: 3% 0;
+  padding-left: 25%;
+  color: #d9d9d9;
+  overflow: hidden;
+  position: bottom;
+  margin: 0px;
 }
