@@ -61,3 +61,7 @@ Create new React App
 - npx create-react-app app_name
   Run React project
 - npm start
+
+Postgresql
+
+- pip install psycopg2
