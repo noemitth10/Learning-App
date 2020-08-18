@@ -32,6 +32,7 @@ class App extends Component {
               <Cell col={2}></Cell>
             </Grid>
           </Content>
+          <Footer />
         </Layout>
       </div>
     );

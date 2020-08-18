@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../login.svg";
 import "../App.scss";
 import { Login } from "./Authentication/Login";
@@ -9,6 +9,8 @@ class Authentication extends React.Component {
     super(props);
     this.state = {
       isLogginActive: true,
+      token: "",
+      setToken: "",
     };
   }
 
@@ -32,15 +34,26 @@ class Authentication extends React.Component {
     const current = isLogginActive ? "Register" : "Login";
     const currentActive = isLogginActive ? "Login" : "Register";
 
+    const userLogin = (tok) => {
+      this.state.token = tok;
+      console.log(this.state.token);
+    };
+
     return (
       <div className="App">
         <div className="login">
           <div className="container">
             {isLogginActive && (
-              <Login containerRef={(ref) => (this.current = ref)} />
+              <Login
+                userLogin={userLogin}
+                containerRef={(ref) => (this.current = ref)}
+              />
             )}
             {!isLogginActive && (
-              <Register containerRef={(ref) => (this.current = ref)} />
+              <Register
+                userLogin={userLogin}
+                containerRef={(ref) => (this.current = ref)}
+              />
             )}
           </div>
           <RightSide

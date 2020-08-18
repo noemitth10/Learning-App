@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     const navDropDownTitle = (
       <i
-        class="fa fa-user-o"
+        className="fa fa-user-o"
         aria-hidden="true"
         style={{ fontSize: "30px" }}
       ></i>
