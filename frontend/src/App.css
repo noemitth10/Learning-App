@@ -100,6 +100,25 @@ strike {
 }
 */
 
+.cell-container {
+  background: white;
+  text-align: justify;
+}
+
+.cell-container p {
+  padding: 2% 5%;
+}
+
+.title {
+  width: 100%;
+  background-color: rgb(89, 150, 86);
+  padding: 3% 2%;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
 /* COntact US Page*/
 .contact-body {
   margin: auto;

@@ -14,6 +14,7 @@ const TestList = () => {
     simple: Simple_Test,
     glazed: Glazed_Test,
   };
+  const len = tests.length;
 
   const Header = componentOf[comp_category.toLowerCase()];
 
@@ -21,6 +22,7 @@ const TestList = () => {
     <div className="lesson-container">
       {
         <Header
+          id={current.id}
           category={current.category}
           text_category={current.text_category}
           text_of_the_question={current.text_of_the_question}
@@ -29,10 +31,18 @@ const TestList = () => {
         />
       }
       <Button
+        className="btn"
+        onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
+      >
+        Előző
+      </Button>
+      <Button
         type="button"
         className="btn"
         value="click"
-        onClick={() => setIndex(index + 1)}
+        onClick={
+          index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
+        }
         style={{ float: "right" }}
       >
         Tovább

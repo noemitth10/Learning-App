@@ -9,6 +9,7 @@ const LessonList = () => {
   const [lessons, setLessons] = useContext(LessonContext);
   const [index, setIndex] = useState(0);
   const current = lessons[index];
+  const len = lessons.length;
 
   function refreshPage() {
     window.location.reload(false);
@@ -25,14 +26,19 @@ const LessonList = () => {
         />
       }
       <LessonNav />
-      <Button className="btn" onClick={() => setIndex(index - 1)}>
+      <Button
+        className="btn"
+        onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
+      >
         Előző
       </Button>
       <Button
         type="button"
         className="btn"
         value="click"
-        onClick={() => setIndex(index + 1)}
+        onClick={
+          index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
+        }
         style={{ float: "right" }}
       >
         Következő

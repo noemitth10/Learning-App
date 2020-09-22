@@ -42,22 +42,22 @@ export const TestProvider = (props) => {
         "A lusta Mirci a verandán aludt. Húzd a helyére a mondatrészeket.",
       answers: [
         {
-          answer_id: 1,
+          answer_id: 5,
           question_text: "Mit állítok?",
           answer_text: "aludt",
         },
         {
-          answer_id: 2,
+          answer_id: 6,
           question_text: "Ki aludt?",
           answer_text: "Mirci",
         },
         {
-          answer_id: 3,
+          answer_id: 7,
           question_text: "Hol aludt?",
           answer_text: "verandán",
         },
         {
-          answer_id: 4,
+          answer_id: 8,
           question_text: "Milyen Mirci?",
           answer_text: "lusta",
         },

@@ -1,3 +1,8 @@
+.lesson-container {
+  background: white;
+  text-align: justify;
+}
+
 .question-container {
   display: flex;
   justify-content: space-between;
@@ -15,22 +20,32 @@
 .board {
   display: inline-block;
   flex-direction: column;
-  width: 40%;
-  height: 400px;
+  width: 90%;
 
-  background-color: #313131;
+  background-color: white;
   margin: 2% 5%;
   padding: 2%;
 }
 
+.l_board {
+  border: 2px solid #313131;
+  margin-left: 6%;
+  width: 60%;
+  color: white;
+}
+
 .card {
-  border: 2px solid #2196f3;
-  background-color: white;
-  color: black;
+  border: 2px soli #165e99;
+  background-color: #2296f3;
+  color: white;
   cursor: pointer;
   width: 46%;
   margin: 2% 2%;
   text-align: center;
   padding: 2%;
   display: inline-block;
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
 }
