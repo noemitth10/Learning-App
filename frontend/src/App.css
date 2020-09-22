@@ -143,3 +143,14 @@ footer {
   position: bottom;
   margin: 0px;
 }
+
+.app-title {
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .app-title {
+    font-size: 25px;
+  }
+}

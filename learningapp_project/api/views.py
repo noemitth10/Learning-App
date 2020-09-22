@@ -12,7 +12,6 @@ from .models import Sentence
 
 # Sentences
 
-
 @api_view(['GET'])
 def apiOverview(request):
     api_urls = {

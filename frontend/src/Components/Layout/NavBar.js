@@ -27,16 +27,15 @@ class NavBar extends Component {
           paddingBottom: "1%",
         }}
       >
-        <Navbar.Brand
-          href="/"
-          style={{ fontSize: "35px", fontFamily: "Anton, sans-serif" }}
-        >
-          Learning-App
+        <Navbar.Brand href="/">
+          <div className="app-title">Learning-App</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/sentences">Sentences</Nav.Link>
+            <Nav.Link href="/lesson">Demo</Nav.Link>
+            <Nav.Link href="/test">TestIt</Nav.Link>
             <Nav.Link href="/aboutus">About Us</Nav.Link>
           </Nav>
           <Nav>

@@ -5,7 +5,6 @@ import "./App.css";
 
 import Main from "./Components/Main";
 import NavBar from "./Components/Layout/NavBar";
-import Footer from "./Components/Layout/Footer";
 
 class App extends Component {
   render() {
@@ -32,7 +31,6 @@ class App extends Component {
               <Cell col={2}></Cell>
             </Grid>
           </Content>
-          <Footer />
         </Layout>
       </div>
     );

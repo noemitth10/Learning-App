@@ -1,0 +1,40 @@
+.lesson-container {
+  background: white;
+  text-align: justify;
+}
+
+.lesson-container p {
+  padding: 2%;
+  font-size: 16px;
+}
+
+.lesson-container button {
+  margin: 2%;
+}
+
+.title-container {
+  width: 100%;
+  background-color: rgb(89, 150, 86);
+  padding: 2% 2%;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .lesson-container p {
+    padding: 5% 10%;
+    font-size: 16px;
+  }
+
+  .lesson-container button {
+    margin: 5%;
+    font-size: 15px;
+  }
+
+  .title-container {
+    padding: 8% 4%;
+    font-size: 30px;
+  }
+}

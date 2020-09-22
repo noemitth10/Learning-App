@@ -1,0 +1,36 @@
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outline-button {
+  border: 2px solid #2196f3;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 40%;
+  margin: 2% 10%;
+}
+
+.board {
+  display: inline-block;
+  flex-direction: column;
+  width: 40%;
+  height: 400px;
+
+  background-color: #313131;
+  margin: 2% 5%;
+  padding: 2%;
+}
+
+.card {
+  border: 2px solid #2196f3;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 46%;
+  margin: 2% 2%;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
+}
