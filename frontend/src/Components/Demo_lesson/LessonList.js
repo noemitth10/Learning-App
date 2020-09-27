@@ -28,6 +28,7 @@ const LessonList = () => {
       <LessonNav />
       <Button
         className="btn"
+        disabled={index >= 1 ? false : true}
         onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
       >
         Előző
@@ -36,6 +37,7 @@ const LessonList = () => {
         type="button"
         className="btn"
         value="click"
+        disabled={index + 1 < len ? false : true}
         onClick={
           index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
         }

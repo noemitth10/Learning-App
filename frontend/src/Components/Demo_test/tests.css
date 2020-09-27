@@ -46,6 +46,28 @@
   display: inline-block;
 }
 
+.left-side {
+  width: 50%;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.left-side .outline-button {
+  width: 50%;
+  margin: 2% 20%;
+}
+
+.right-side {
+  width: 50%;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.right-side .outline-button {
+  width: 50%;
+  margin: 2% 20%;
+}
+
 /* Tablets */
 @media screen and (max-width: 768px) {
 }

@@ -4,6 +4,7 @@ import Simple_Test from "./Simple_Test";
 import Glazed_Test from "./Glazed_Test";
 import { Button } from "react-bootstrap";
 import "../Demo_lesson/lessons.css";
+import Paired_Test from "./Paired_Test";
 
 const TestList = () => {
   const [tests, setTests] = useContext(TestContext);
@@ -13,6 +14,7 @@ const TestList = () => {
   const componentOf = {
     simple: Simple_Test,
     glazed: Glazed_Test,
+    pairing: Paired_Test,
   };
   const len = tests.length;
 
@@ -32,6 +34,7 @@ const TestList = () => {
       }
       <Button
         className="btn"
+        disabled={index >= 1 ? false : true}
         onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
       >
         Előző
@@ -40,6 +43,7 @@ const TestList = () => {
         type="button"
         className="btn"
         value="click"
+        disabled={index + 1 < len ? false : true}
         onClick={
           index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
         }

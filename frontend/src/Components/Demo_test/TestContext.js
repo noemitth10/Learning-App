@@ -64,6 +64,35 @@ export const TestProvider = (props) => {
       ],
       points: 10,
     },
+    {
+      id: 3,
+      category: "Az állítmány - Tesztfeladatok",
+      text_category: "pairing",
+      text_of_the_question: "Találd meg a párokat.",
+      answers: [
+        {
+          answer_id: 5,
+          question_text: "állítmány",
+          answer_text: "aludt",
+        },
+        {
+          answer_id: 6,
+          question_text: "alany",
+          answer_text: "Mirci",
+        },
+        {
+          answer_id: 7,
+          question_text: "helyhatározó",
+          answer_text: "verandán",
+        },
+        {
+          answer_id: 8,
+          question_text: "jelző",
+          answer_text: "lusta",
+        },
+      ],
+      points: 10,
+    },
   ]);
 
   return (
