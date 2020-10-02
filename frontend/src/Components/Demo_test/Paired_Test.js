@@ -3,7 +3,7 @@ import { Button, Alert } from "react-bootstrap";
 import "../Demo_lesson/lessons.css";
 import Dialog from "./Dialog";
 import "./tests.css";
-import Card from "./Card";
+import AddModal from "./AddModal";
 
 const Paired_Test = ({
   category,

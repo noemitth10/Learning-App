@@ -1,7 +1,8 @@
-import React from "react";
-import { Button, Alert } from "react-bootstrap";
+import React, { useState, useContext } from "react";
+import { Button, Alert, ButtonToolbar } from "react-bootstrap";
 import "../Demo_lesson/lessons.css";
 import Dialog from "./Dialog";
+import AddModal from "./AddModal";
 import "./tests.css";
 
 const Simple_Test = ({
@@ -11,11 +12,26 @@ const Simple_Test = ({
   answers,
   points,
 }) => {
+  const [modalShow, setModalShow] = React.useState(false);
+  const [modalTitle, setModalTitle] = React.useState(null);
+  const [modalHeader, setModalHeader] = React.useState(null);
+  const [modalText, setModalText] = React.useState(null);
+
+  const addModalClose = () => setModalShow(false);
+
   const correctAnswer = (value) => {
     if (value == true) {
       console.log("success");
+      setModalTitle("Success");
+      setModalHeader("Gratulálunk!");
+      setModalText("A válaszod helyes.");
+      setModalShow(true);
     } else {
       console.log("warning");
+      setModalTitle("Wrong answer");
+      setModalHeader("Ez most nem sikerült. :((");
+      setModalText("A válaszod helytelen.");
+      setModalShow(true);
     }
   };
 
@@ -32,6 +48,15 @@ const Simple_Test = ({
             {answer.answer_text}
           </Button>
         ))}
+        <ButtonToolbar>
+          <AddModal
+            show={modalShow}
+            onHide={addModalClose}
+            modalTitle={modalTitle}
+            modalHeader={modalHeader}
+            modalText={modalText}
+          />
+        </ButtonToolbar>
       </div>
     </div>
   );

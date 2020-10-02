@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import "../../landingpage.css";
+import "../../App.css";
 
 class NavBar extends Component {
   render() {
@@ -14,18 +16,9 @@ class NavBar extends Component {
     return (
       <Navbar
         collapseOnSelect
+        className="main-navbar"
         expand="lg"
-        bg="dark"
         variant="dark"
-        style={{
-          background: "#424242",
-          color: "white",
-          paddingLeft: "18%",
-          paddingRight: "18%",
-          fontSize: "20px",
-          paddingTop: "1%",
-          paddingBottom: "1%",
-        }}
       >
         <Navbar.Brand href="/">
           <div className="app-title">Learning-App</div>

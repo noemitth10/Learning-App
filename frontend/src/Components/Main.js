@@ -6,8 +6,9 @@ import AboutUs from "./AboutUs";
 import Sentences from "./Sentences";
 import Authentication from "./Authentication";
 
-import { USerContext, UserProvider } from "./test/UserContext";
-import RegUser from "./test/RegUser";
+import { UserContext, UserProvider } from "./Test_auth/UserContext";
+import UserList from "./Test_auth/UserList";
+import UserLogin from "./Test_auth/UserLogin";
 
 import { LessonContext, LessonProvider } from "./Demo_lesson/LessonContext";
 import LessonList from "./Demo_lesson/LessonList";
@@ -19,8 +20,8 @@ import TestList from "./Demo_test/TestList";
 function User() {
   return (
     <UserProvider>
-      <RegUser />
-      <Test />
+      <Route path="/user" component={UserList} />
+      <Route path="/userlogin" component={UserLogin} />
     </UserProvider>
   );
 }
@@ -52,6 +53,7 @@ const Main = () => (
     <Route path="/user" component={User} />
     <Route path="/lesson" component={Lesson} />
     <Route path="/test" component={Test} />
+    <Route path="/userlogin" component={UserLogin} />
   </Switch>
 );
 export default Main;

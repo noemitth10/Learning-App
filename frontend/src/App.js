@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Layout, Content } from "react-mdl";
 import { Grid, Cell } from "react-mdl";
 import "./App.css";
+import Board from "./Components/Demo_test/Board";
 
 import Main from "./Components/Main";
 import NavBar from "./Components/Layout/NavBar";
@@ -18,20 +19,14 @@ class App extends Component {
 
     return (
       <div className="demo-big-content" style={{ display: "grid" }}>
-        <Layout>
-          <NavBar />
-          <Content>
-            <Grid>
-              <Cell col={2}></Cell>
-              <Cell col={8}>
-                <div className="page-content">
-                  <Main />
-                </div>
-              </Cell>
-              <Cell col={2}></Cell>
-            </Grid>
-          </Content>
-        </Layout>
+        <Board>
+          <Layout>
+            <NavBar />
+            <Content>
+              <Main />
+            </Content>
+          </Layout>
+        </Board>
       </div>
     );
   }

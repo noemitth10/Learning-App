@@ -2,6 +2,7 @@ import React from "react";
 
 function Board(props) {
   const good_answer = props.answer;
+  var all = 0;
 
   const drop = (e) => {
     e.preventDefault();
@@ -12,13 +13,16 @@ function Board(props) {
     const card = document.getElementById(card_id);
     if (card_id == good_answer) {
       console.log("good answer");
-
+      all += 1;
       card.style.display = "block";
+      card.draggable = false;
 
       e.target.appendChild(card);
-    } else {
+    } else if (card_id != good_answer) {
       console.log("bad answer");
       card.style.display = "block";
+    } else {
+      card.style.display = "absolute";
     }
   };
 

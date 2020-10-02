@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import logo from "../login.svg";
 import "../App.scss";
 import { Login } from "./Authentication/Login";
 import { Register } from "./Authentication/Register";
+import { UserTokenProvider } from "./Test_auth/UserTokenContext";
 
 class Authentication extends React.Component {
   constructor(props) {
