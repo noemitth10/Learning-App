@@ -5,6 +5,7 @@ import LandingPage from "./LandingPage";
 import AboutUs from "./AboutUs";
 import Sentences from "./Sentences";
 import Authentication from "./Authentication";
+import Hub from "./Demo/Hub";
 
 import { UserContext, UserProvider } from "./Test_auth/UserContext";
 import UserList from "./Test_auth/UserList";
@@ -50,6 +51,7 @@ const Main = () => (
     <Route path="/sentences" component={Sentences} />
     <Route path="/login" component={Authentication} />
     <Route path="/register" component={Authentication} />
+    <Route path="/hub" component={Hub} />
     <Route path="/user" component={User} />
     <Route path="/lesson" component={Lesson} />
     <Route path="/test" component={Test} />

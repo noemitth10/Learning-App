@@ -43,6 +43,7 @@
 
 .main-text p {
   text-align: left;
+  font-size: 20px;
 }
 
 .btn-circle,
@@ -136,6 +137,36 @@
   padding: 2%;
 }
 
+/*another jumbotron*/
+
+.jumbotron-second {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 0;
+  height: 40vh;
+  background-image: url("./images/writing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease;
+}
+
+.jumbotron-second h2 {
+  text-align: left;
+  color: black;
+  text-shadow: 1px 1px black;
+}
+
+.jumbotron-second .main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.jumbotron-second .btn {
+  margin-top: 5%;
+  padding: 2% 7%;
+}
+
 /* section 4 */
 
 .text-container-black {
@@ -198,6 +229,22 @@
 
   .main-navbar .app-title {
     padding-left: 0;
+  }
+
+  .jumbotron-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+    background-image: url("./images/textbook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease;
+  }
+
+  .main-text p {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
   }
 
   .text-container {
@@ -263,6 +310,22 @@
 
   .x-svg {
     margin-left: 71%;
+  }
+
+  .jumbotron-second {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vh;
+    margin-bottom: 0;
+  }
+
+  .jumbotron-second h2 {
+    font-size: xx-large;
+  }
+
+  .jumbotron-second .btn {
+    margin-top: 0;
+    padding: 2% 5%;
   }
 }
 
@@ -349,5 +412,20 @@
 
   .x-svg {
     margin-left: 66%;
+  }
+
+  .jumbotron-second {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+  }
+
+  .jumbotron-second h2 {
+    font-size: xx-large;
+  }
+
+  .jumbotron-second .btn {
+    margin-top: 0;
+    padding: 2% 5%;
   }
 }

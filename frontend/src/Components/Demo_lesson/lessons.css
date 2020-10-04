@@ -1,6 +1,7 @@
 .lesson-container {
   background: white;
   text-align: justify;
+  margin: 0 20%;
 }
 
 .lesson-container p {

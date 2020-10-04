@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { Layout, Content } from "react-mdl";
 import { Grid, Cell } from "react-mdl";
-import "./App.css";
-import Board from "./Components/Demo_test/Board";
 
+import Board from "./Components/Demo_test/Board";
 import Main from "./Components/Main";
 import NavBar from "./Components/Layout/NavBar";
+
+import "./App.css";
 
 class App extends Component {
   render() {

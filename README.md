@@ -1,8 +1,11 @@
 # Learning-App
 
-Hungarian grammar learning application with sentence analysis and spelling checker for students
+Hungarian grammar learning application with sentence analysis and spelling checker for students.
 
-Useful commands
+## Useful commands
+
+### Django commands
+
 Install Django in command line
 
 - pip install django
@@ -15,15 +18,15 @@ Check the version of Django and Python
 Install Django Rest Framework
 
 - pip install djangorestframework
-
--> Add 'rest_framework' to your INSTALLED_APPS settings.
+  -> Add 'rest_framework' to your INSTALLED_APPS settings.
 
 Create new Django project
 
 - django-admin startproject project_name
 
 Create new Django app within the project
--python manage.py startapp app_name
+
+- python manage.py startapp app_name
 
 Run Django project on server
 
@@ -48,20 +51,26 @@ Install django-cors-headers
 
 - pip install django-cors-headers
 
-Virtual environment
+### Virtual environment commands
+
+Create virtual environment
 
 - virtualenv env_name
+
 - env\scripts\activate
+
 - pip install -r requirements.txt
 
-React commands
+### React commands
 
 Create new React App
 
 - npx create-react-app app_name
-  Run React project
+
+Run React project
+
 - npm start
 
-Postgresql
+### Postgresql commands
 
 - pip install psycopg2

@@ -139,6 +139,17 @@ class LandingPage extends Component {
           </div>
         </div>
 
+        <Jumbotron fluid className="jumbotron-second">
+          <div class="container-fluid main">
+            <div class="text-center main-text">
+              <h2>Szóval mire vársz még?</h2>
+              <a class="btn btn-primary btn-lg" href="hub" role="button">
+                Kezdd el most!
+              </a>
+            </div>
+          </div>
+        </Jumbotron>
+
         <div className="text-container-black">
           <h3>Mit csinálunk pontosan?</h3>
           Lorem Ipsum is simply dummy text of the printing and typesetting
