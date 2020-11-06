@@ -37,6 +37,36 @@ export const TestProvider = (props) => {
     {
       id: 2,
       category: "Az állítmány - Tesztfeladatok",
+      text_category: "simple",
+      text_of_the_question:
+        "Mi az állítmány fajtája? A nyúl nehezen fogható meg.",
+      answers: [
+        {
+          answer_id: 1,
+          answer_text: "névszói",
+          correct: false,
+        },
+        {
+          answer_id: 2,
+          answer_text: "nincs állítmány",
+          correct: false,
+        },
+        {
+          answer_id: 3,
+          answer_text: "igei",
+          correct: true,
+        },
+        {
+          answer_id: 4,
+          answer_text: "névszói-igei",
+          correct: false,
+        },
+      ],
+      points: 10,
+    },
+    {
+      id: 3,
+      category: "Az állítmány - Tesztfeladatok",
       text_category: "glazed",
       text_of_the_question:
         "A lusta Mirci a verandán aludt. Húzd a helyére a mondatrészeket.",
@@ -65,7 +95,7 @@ export const TestProvider = (props) => {
       points: 10,
     },
     {
-      id: 3,
+      id: 4,
       category: "Az állítmány - Tesztfeladatok",
       text_category: "pairing",
       text_of_the_question: "Találd meg a párokat.",

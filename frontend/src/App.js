@@ -5,8 +5,10 @@ import { Grid, Cell } from "react-mdl";
 import Board from "./Components/Demo_test/Board";
 import Main from "./Components/Main";
 import NavBar from "./Components/Layout/NavBar";
+import NewNavBar from "./Components/Layout/NewNavBar"
 
 import "./App.css";
+import axios from "axios";
 
 class App extends Component {
   render() {
@@ -22,7 +24,7 @@ class App extends Component {
       <div className="demo-big-content" style={{ display: "grid" }}>
         <Board>
           <Layout>
-            <NavBar />
+            <NewNavBar />
             <Content>
               <Main />
             </Content>

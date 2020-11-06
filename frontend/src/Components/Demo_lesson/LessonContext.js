@@ -7,16 +7,24 @@ export const LessonProvider = (props) => {
     {
       id: 1,
       category: "Az állítmány",
-      text_of_the_lesson:
-        "Az állítmány a tagolt mondat központi szerepű mondatrésze. Az alany az a mondatrész, amely megnevezi azt a dolgot, személyt, amelyre az állítmány megállapítása vonatkozik.# A mondat állítását tartalmazza, a Mit állítok? kérdésre válaszol.# Igei természetű mondatrész, de ez nem azt jelenti hogy csak ige lehet, hanem azt, hogy ki kell fejeznie a benne megfogalmazott állítás idejét, az alany személyét és számát, és a beszélőnek az igemódokban kifejezett viszonyulását az eseményekhez.#",
+      text_of_the_lesson: [
+        "Az állítmány a tagolt mondat központi szerepű mondatrésze.",
+        "Az alany az a mondatrész, amely megnevezi azt a dolgot, személyt, amelyre az állítmány megállapítása vonatkozik.",
+        "A mondat állítását tartalmazza, a Mit állítok? kérdésre válaszol.",
+        "Igei természetű mondatrész, de ez nem azt jelenti hogy csak ige lehet, hanem azt, hogy ki kell fejeznie a benne megfogalmazott állítás idejét, az alany személyét és számát, és a beszélőnek az igemódokban kifejezett viszonyulását az eseményekhez."
+      ],
       level: "Beginner",
       sentences: [],
     },
     {
       id: 2,
       category: "Az állítmány",
-      text_of_the_lesson:
-        "Az állítmány fajtái:# Igei: A igei állítmány cselekvést, történést, létezést, állapotot fejez ki, és önmagában is ki tudja fejezni az időt, a módot, a számot és a személyt.#",
+      text_of_the_lesson: [
+        "Az állítmány fajtái a következők:",
+        "Igei:",
+        "A igei állítmány cselekvést, történést, létezést, állapotot fejez ki, és önmagában is ki tudja fejezni az időt, a módot, a számot és a személyt.",
+        "Például... "
+      ],
       level: "Beginner",
       sentences: [
         {
@@ -29,8 +37,12 @@ export const LessonProvider = (props) => {
     {
       id: 3,
       category: "Az állítmány",
-      text_of_the_lesson:
-        "Névszói-igei:#Az állítmánynak mindig meg kell jelölnie az időt, a módot, a számot és a személyt még akkor is ha ige. Mivel a névszó nem tudja kifejezni ezeket, ezért ki kell egészülnie segédigével.#",
+      text_of_the_lesson: [
+        "Az állítmány fajtái a következők:",
+        "Névszói-igei:",
+        "Az állítmánynak mindig meg kell jelölnie az időt, a módot, a számot és a személyt még akkor is ha ige. Mivel a névszó nem tudja kifejezni ezeket, ezért ki kell egészülnie segédigével.",
+        "Például..."
+      ],
       level: "Beginner",
       sentences: [
         {
@@ -48,8 +60,12 @@ export const LessonProvider = (props) => {
     {
       id: 4,
       category: "Az állítmány",
-      text_of_the_lesson:
-        "Névszói (főnév, melléknév, számnév vagy főnévi, melléknévi, számnévi névmás):#A névszói állítmány alaktani szempontból kötött, ezért csak olyan mondatokban szerepel, melyekben az állítmány kijelentő módú, jelen idejű értelemben vonatkoztat valamit a 3. személyű alanyra. A névszói állítmány az alanyt minősíti.#",
+      text_of_the_lesson: [
+        "Az állítmány fajtái a következők:",
+        "Névszói (főnév, melléknév, számnév vagy főnévi, melléknévi, számnévi névmás):",
+        "A névszói állítmány alaktani szempontból kötött, ezért csak olyan mondatokban szerepel, melyekben az állítmány kijelentő módú, jelen idejű értelemben vonatkoztat valamit a 3. személyű alanyra. A névszói állítmány az alanyt minősíti.",
+        "Például..."
+      ],
       level: "Beginner",
       sentences: [
         {

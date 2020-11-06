@@ -5,10 +5,14 @@ const Lesson = ({ category, text_of_the_lesson, level, sentences }) => {
   return (
     <div>
       <div className="title-container">{category}</div>
-      <p>{text_of_the_lesson}</p>
-      {sentences.map((sentence) => (
-        <p>{sentence.sentence_text}</p>
-      ))}
+      <div className="lesson-content">
+          {text_of_the_lesson.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+          {sentences.map((sentence) => (
+            <p style={{textAlign: "center"}}>{sentence.sentence_text}</p>
+          ))}
+      </div>  
     </div>
   );
 };

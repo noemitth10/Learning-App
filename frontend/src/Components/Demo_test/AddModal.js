@@ -19,7 +19,7 @@ function AddModal(props) {
         <p>{props.modalText}</p>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide}>Bezárás</Button>
       </Modal.Footer>
     </Modal>
   );

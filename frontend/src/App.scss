@@ -70,7 +70,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90%;
-    background-color: #3498db;
+    background-color: #348aa7;
     width: 100%;
     position: absolute;
     right: -34%;
@@ -90,7 +90,7 @@
     &.left {
       right: 40%;
       align-items: flex-start;
-      background-color: #66b172;
+      background-color: #7abb25;
       &:hover {
         right: 45%;
       }
@@ -111,13 +111,13 @@
   font-size: 21px;
   padding: 5px 20px;
   border: 0;
-  background-color: #3498db;
+  background-color: #7abb25;
   color: #fff;
   border-radius: 3px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
   &:hover {
-    background-color: #2386c8;
+    background-color: #348aa7;
   }
   &:focus {
     outline: none;

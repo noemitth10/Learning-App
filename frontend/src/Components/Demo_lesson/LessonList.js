@@ -25,15 +25,14 @@ const LessonList = () => {
           sentences={current.sentences}
         />
       }
-      <LessonNav />
-      <Button
+      <button
         className="btn"
         disabled={index >= 1 ? false : true}
         onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
       >
         Előző
-      </Button>
-      <Button
+      </button>
+      <button
         type="button"
         className="btn"
         value="click"
@@ -44,7 +43,7 @@ const LessonList = () => {
         style={{ float: "right" }}
       >
         Következő
-      </Button>
+      </button>
     </div>
   );
 };

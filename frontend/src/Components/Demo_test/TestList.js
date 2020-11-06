@@ -32,14 +32,16 @@ const TestList = () => {
           points={current.points}
         />
       }
-      <Button
+      <button
+        type="button"
         className="btn"
+        value="click"
         disabled={index >= 1 ? false : true}
         onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
       >
         Előző
-      </Button>
-      <Button
+      </button>
+      <button
         type="button"
         className="btn"
         value="click"
@@ -50,7 +52,8 @@ const TestList = () => {
         style={{ float: "right" }}
       >
         Tovább
-      </Button>
+      </button>
+      
     </div>
   );
 };

@@ -38,14 +38,14 @@ export class Login extends Component {
   render() {
     return (
       <div className="base-container" ref={this.props.containerRef}>
-        <div className="header">Login</div>
+        <div className="header">Lépj be</div>
         <div className="content">
           <div className="image">
             <img src={loginImg} />
           </div>
           <div className="form">
             <div className="form-group">
-              <label htmlFor="username">Username</label>
+              <label htmlFor="username">Felhasználónév</label>
               <input
                 type="text"
                 name="username"
@@ -55,7 +55,7 @@ export class Login extends Component {
               ></input>
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password">Jelszó</label>
               <input
                 type="password"
                 name="password"
@@ -68,7 +68,7 @@ export class Login extends Component {
         </div>
         <div className="form-footer">
           <button onClick={this.login} type="button" className="btn">
-            Login
+            Belépés
           </button>
         </div>
       </div>

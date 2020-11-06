@@ -6,10 +6,12 @@
 .question-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2%;
 }
 
-.outline-button {
-  border: 2px solid #2196f3;
+.test-btn {
+  border: 2px solid #348aa7;
+  background-color: #348aa7;
   background-color: white;
   color: black;
   cursor: pointer;
@@ -22,7 +24,7 @@
   flex-direction: column;
   width: 90%;
 
-  background-color: white;
+  background-color: #f3eff5;
   margin: 1% 5%;
   padding: 1%;
 }
@@ -35,8 +37,8 @@
 }
 
 .card {
-  border: 2px solid #165e99;
-  background-color: #2296f3;
+  border: 2px solid #348aa7;
+  background-color: #348aa7;
   color: white;
   cursor: pointer;
   width: 46%;
@@ -52,9 +54,9 @@
   flex-direction: column;
 }
 
-.left-side .outline-button {
-  width: 50%;
-  margin: 1% 20%;
+.left-side .paired {
+  width: 80%;
+  margin-left: 10%;
 }
 
 .right-side {
@@ -63,9 +65,9 @@
   flex-direction: column;
 }
 
-.right-side .outline-button {
-  width: 50%;
-  margin: 1% 10%;
+.right-side .paired {
+  width: 80%;
+  margin-left: 10%;
 }
 
 /* Tablets */

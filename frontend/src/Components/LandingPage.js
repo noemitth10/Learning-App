@@ -6,7 +6,7 @@ import "../landingpage.css";
 class LandingPage extends Component {
   render() {
     return (
-      <div>
+      <div className="landing-container">
         <Jumbotron fluid className="jumbotron-main">
           <h1>A tanulás még sosem volt ilyen egyszerű!</h1>
           <div class="container-fluid main">

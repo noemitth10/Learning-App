@@ -41,22 +41,22 @@ const Paired_Test = ({
       <div className="question-container">
         <div className="left-side">
           {answers.map((answer) => (
-            <Button
-              className="outline-button"
+            <button
+              className="test-btn paired"
               onClick={() => setId(answer.answer_id)}
             >
               {answer.question_text}
-            </Button>
+            </button>
           ))}
         </div>
         <div className="right-side">
           {answers.map((answer) => (
-            <Button
-              className="outline-button"
+            <button
+              className="test-btn paired"
               onClick={() => setId(answer.answer_id)}
             >
               {answer.answer_text}
-            </Button>
+            </button>
           ))}
         </div>
       </div>

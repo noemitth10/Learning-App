@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 class AboutUs extends Component {
   render() {
     return (
-      <div className="contact-body">
+      <div className="contact-body" style={{ margin: "0 20%" }}>
         <Grid className="contact-grid">
           <Cell col={6} style={{ background: "white" }}>
             <div>

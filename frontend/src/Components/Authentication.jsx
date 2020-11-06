@@ -32,8 +32,8 @@ class Authentication extends React.Component {
 
   render() {
     const { isLogginActive } = this.state;
-    const current = isLogginActive ? "Register" : "Login";
-    const currentActive = isLogginActive ? "Login" : "Register";
+    const current = isLogginActive ? "Regisztrálj" : "Lépj be";
+    const currentActive = isLogginActive ? "Lépj be" : "Regisztrálj";
 
     const userLogin = (tok) => {
       this.state.token = tok;
@@ -42,7 +42,7 @@ class Authentication extends React.Component {
 
     return (
       <div className="App">
-        <div className="login">
+        <div className="login" style={{marginTop: "2%"}}>
           <div className="container">
             {isLogginActive && (
               <Login

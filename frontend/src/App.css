@@ -18,13 +18,13 @@ body {
 }
 
 body {
-  background: #67b26f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  background: #292f36; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(
     to right,
     #4ca2cd,
     #67b26f
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #4ca2cd,
     #67b26f

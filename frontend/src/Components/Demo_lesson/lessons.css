@@ -1,12 +1,19 @@
 .lesson-container {
-  background: white;
+  background: #f3eff5;
   text-align: justify;
-  margin: 0 20%;
+  margin: 2% 20%;
+  /*display: flexbox;
+  overflow: hidden;*/
+}
+
+.lesson-content {
+  padding: 2%;
 }
 
 .lesson-container p {
-  padding: 2%;
-  font-size: 16px;
+  padding: 0 1%;
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
 }
 
 .lesson-container button {
@@ -15,11 +22,42 @@
 
 .title-container {
   width: 100%;
-  background-color: rgb(89, 150, 86);
+  background-color: #e4dde0;
   padding: 2% 2%;
   font-family: "Anton", sans-serif;
   font-size: 30px;
   color: white;
+  text-shadow: 2px 2px 4px black;
+  text-align: left;
+}
+
+.btn {
+  background-color: #7abb25;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.test-btn {
+  width: 40%;
+  border: 2px solid #348aa7;
+  background-color: #348aa7;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4e7718;
 }
 
 /* Mobile */

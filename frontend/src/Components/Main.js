@@ -1,11 +1,16 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import axios from "axios";
 
 import LandingPage from "./LandingPage";
 import AboutUs from "./AboutUs";
 import Sentences from "./Sentences";
 import Authentication from "./Authentication";
 import Hub from "./Demo/Hub";
+
+import RegisterUser from "./Authorization/Register";
+import LoginUser from "./Authorization/Login";
+import UserProfile from "./Authorization/UserProfile";
 
 import { UserContext, UserProvider } from "./Test_auth/UserContext";
 import UserList from "./Test_auth/UserList";
@@ -44,18 +49,42 @@ function Test() {
   );
 }
 
-const Main = () => (
-  <Switch>
-    <Route exact path="/" component={LandingPage} />
-    <Route path="/aboutus" component={AboutUs} />
-    <Route path="/sentences" component={Sentences} />
-    <Route path="/login" component={Authentication} />
-    <Route path="/register" component={Authentication} />
-    <Route path="/hub" component={Hub} />
-    <Route path="/user" component={User} />
-    <Route path="/lesson" component={Lesson} />
-    <Route path="/test" component={Test} />
-    <Route path="/userlogin" component={UserLogin} />
-  </Switch>
-);
-export default Main;
+export default class Main extends Component {
+  state = {};
+
+  componentDidMount() {
+    axios.get("http://localhost:8000/api/user-update/<str:pk>/").then(
+      (res) => {
+        this.setState({ user: res.data });
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
+  }
+
+  render() {
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/aboutus" component={AboutUs} />
+          <Route path="/sentences" component={Sentences} />
+          <Route path="/login" component={Authentication} />
+          <Route path="/register" component={Authentication} />
+          <Route path="/hub" component={Hub} />
+          <Route path="/user" component={User} />
+          <Route path="/lesson" component={Lesson} />
+          <Route path="/test" component={Test} />
+          <Route path="/userlogin" component={UserLogin} />
+          <Route path="/userreg" component={RegisterUser} />
+          <Route path="/userlog" component={LoginUser} />
+          <Route
+            path="/profile"
+            component={() => <UserProfile user={this.state.user} />}
+          />
+        </Switch>
+      </BrowserRouter>
+    );
+  }
+}

@@ -19,17 +19,17 @@ const Simple_Test = ({
 
   const addModalClose = () => setModalShow(false);
 
-  const correctAnswer = (value) => {
+  const correctAnswer = (value, text) => {
     if (value == true) {
       console.log("success");
-      setModalTitle("Success");
-      setModalHeader("Gratulálunk!");
-      setModalText("A válaszod helyes.");
+      setModalTitle("Sikerült.");
+      setModalHeader("Gratulálunk! A válaszod helyes.");
+      setModalText("A helyes válasz: " + text);
       setModalShow(true);
     } else {
       console.log("warning");
-      setModalTitle("Wrong answer");
-      setModalHeader("Ez most nem sikerült. :((");
+      setModalTitle("Rossz válasz.");
+      setModalHeader("Ez most nem sikerült.");
       setModalText("A válaszod helytelen.");
       setModalShow(true);
     }
@@ -41,12 +41,12 @@ const Simple_Test = ({
       <p>{text_of_the_question}</p>
       <div className="question-container">
         {answers.map((answer) => (
-          <Button
-            className="outline-button"
-            onClick={() => correctAnswer(answer.correct)}
+          <button
+            className="test-btn"
+            onClick={() => correctAnswer(answer.correct, answer.answer_text)}
           >
             {answer.answer_text}
-          </Button>
+          </button>
         ))}
         <ButtonToolbar>
           <AddModal
