@@ -1,0 +1,27 @@
+.menu-points {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-left {
+    width: 20%;
+    float: left;
+}
+
+.menu-right {
+    width: 80%;
+    float: right;
+    text-align: left;
+    margin-top: 4%;
+}
+
+.menu-left img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}

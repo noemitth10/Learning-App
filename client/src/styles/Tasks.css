@@ -1,0 +1,168 @@
+.test-length {
+  padding-left: 2%;
+}
+
+.text {
+    padding: 1% 2%;
+    font-size: 20px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pacingButton {
+    background-color: #348aa7;
+    border: 2px solid #348aa7;
+    text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pacingButton:disabled {
+    background-color: #9dd0e1;
+    border: 2px solid  #9dd0e1;
+}
+
+.answerButton {
+    width: 40%;
+    border: 2px solid #9ac13e;
+    background-color: #A7C957;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.answerButton:hover {
+    background-color: #9ac13e;   
+}
+
+/* Glazed tasktypes */
+
+.board {
+    display: inline-block;
+    flex-direction: column;
+    width: 90%;
+  
+    background-color: #f3eff5;
+    margin: 1% 5%;
+    padding: 1%;
+  }
+  
+  .l_board {
+    vertical-align: middle;
+    border: 2px solid #313131;
+    margin-left: 6%;
+    width: 60%;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 2px solid #348aa7;
+    background-color: #348aa7;
+    color: white;
+    cursor: pointer;
+    width: 46%;
+    margin: 1% 1%;
+    text-align: center;
+    padding: 2%;
+    display: inline-block;
+  }
+  
+  .left-side {
+    width: 50%;
+    display: inline-block;
+    flex-direction: column;
+  }
+  
+  .left-side .paired {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .right-side {
+    width: 50%;
+    display: inline-block;
+    flex-direction: column;
+  }
+  
+  .right-side .paired {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  /* DROPDOWN LIST TASK*/
+.dropdown-container {
+  width: 100%;
+  padding: 2%;
+  overflow: hidden;
+  position: relative;
+}
+
+.question-line {
+  width: 20%;
+  float: left;
+  height: 50px;
+}
+
+.answer-line {
+  width: 80%;
+  float: right;
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .question-line {
+    width: 40%;
+  }
+  
+  .answer-line {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobiles: */
+  .question-line {
+    width: 70%;
+  }
+  
+  .answer-line {
+    width: 30%;
+  }
+}
+
+.myCanvas {
+  background-color: blueviolet;
+}
+
+/* PAIRING TASK */
+
+.pairing-btn {
+  border: 2px solid #348aa7;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 40%;
+  margin: 1% 10%;
+  padding: 2%;
+}
