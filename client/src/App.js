@@ -84,6 +84,7 @@ function App() {
           </div>
           <Footer/>
           </Board>
+          
     </>
   );
 }

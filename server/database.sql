@@ -105,9 +105,36 @@ CREATE TABLE sentence_words(
 
 CREATE TABLE tasks(
 	task_id SERIAL PRIMARY KEY,
+	test_id INT,
 	category VARCHAR(150),
 	task_type VARCHAR(150),
-	text_of_the_question TEXT
+	text_of_the_question TEXT,
+	answers TEXT[],
+	points INT
+);
+
+CREATE TABLE answers(
+	answer_id SERIAL PRIMARY KEY,
+	task_id INT,
+	answer_text VARCHAR(250),
+	correct BOOLEAN,
+
+	CONSTRAINT fk_tasks FOREIGN KEY(task_id)
+	REFERENCES tasks(task_id) ON DELETE CASCADE
+);
+
+INSERT INTO tasks (test_id, category, task_type, text_of_the_question, points) VALUES (
+	2,
+	"Az állítmány",
+	"simple",
+	"A lusta Mirci a verandán aludt. Mi a mondat állítmánya?",
+	10
+);
+
+INSERT INTO answers (task_id, answer_text, correct) VALUES (
+	1,
+	"Mirci",
+	"false"
 );
 
 

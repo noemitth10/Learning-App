@@ -107,4 +107,32 @@ router.post("/update", async(req, res) => {
     }
 })
 
+// DELETE USER
+router.delete("/delete_user", validInfo, async(req, res) => {
+    try {
+       const { email, password } = req.body;
+
+       const user = await pool.query("SELECT * FROM users WHERE email = $1", 
+           [ email ]);
+        console.log(user);
+       if(user.rows.length === 0) {
+           return res.status(401).json("Email is incorrect.");
+       }
+
+       const validPassword = await bcrypt.compare(password, user.rows[0].password);
+
+       if(!validPassword) {
+           res.status(401).json("Password is incorrect.")
+       }
+
+       const deleteUser = await pool.query("DELETE FROM users WHERE email = $1", [email]);
+
+        res.json("User was deleted!");
+
+    } catch (error) {
+       console.error(error.message)
+       res.status(500).send("Server Error")
+    }
+})
+
 module.exports = router;

@@ -77,6 +77,7 @@ const UpdateUser = ({setAuth}) => {
                 Mentés
             </button>
         </form>
+        <button className="btn btn-warning logout-button">Profil törlése</button>
               <ButtonToolbar>
                 <AddModal
                   show={modalShow}

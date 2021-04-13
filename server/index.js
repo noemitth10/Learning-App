@@ -3,7 +3,8 @@ const app = express();
 const cors  =require("cors")
 const pool = require("./db")
 
-const requestHeader = require("./middleware/request")
+const requestHeader = require("./middleware/request");
+const { all } = require("./routes/jwtAuth");
 //middleware
 app.use(express.json());
 app.use(cors());
@@ -129,6 +130,82 @@ app.delete("/sentences/:sentence_id", async(req, res) => {
         const deleteSentence = await pool.query("DELETE FROM sentences WHERE sentence_id = $1", [sentence_id]);
 
         res.json("Sentence was deleted!");
+    } catch(err) {
+        console.error(err.message);
+    }
+})
+
+//GET TASKS WITH ANSWERS
+app.get("/tasks", async(req, res) => {
+    try {
+        const allTasks = await pool.query("SELECT * FROM tasks");
+        console.log(allTasks)
+        res.json(allTasks.rows);
+    } catch(err) {
+        console.error(err.message);
+    }
+})
+
+//CREATE A TASK
+app.post("/tasks", async(req, res) => {
+    try {
+        const {test_id, category, task_type, text_of_the_question, points} = req.body;
+        const newTask = await pool.query("INSERT INTO tasks (test_id, category, task_type, text_of_the_question, points) VALUES ($1, $2, $3, $4, $5) RETURNING *",
+         [test_id, category, task_type, text_of_the_question, points]
+        );
+
+        res.json(newTask.rows[0]);
+    } catch (error) {
+        console.log(error.message)
+    }
+})
+
+//GET ANSWERS
+app.get("/answers", async(req, res) => {
+    try {
+        const allAnswers = await pool.query("SELECT * FROM answers");
+        console.log(allAnswers)
+        res.json(allAnswers.rows);
+    } catch(err) {
+        console.error(err.message);
+    }
+})
+
+//CREATE A TASK
+app.post("/answers", async(req, res) => {
+    try {
+        const {task_id, answer_text, correct} = req.body;
+        const newAnswer = await pool.query("INSERT INTO answers (task_id, answer_text, correct) VALUES ($1, $2, $3) RETURNING *",
+         [task_id, answer_text, correct]
+        );
+
+        res.json(newAnswer.rows[0]);
+    } catch (error) {
+        console.log(error.message)
+    }
+})
+
+app.get("/tasks_with_answers", async(req, res) => {
+    try {
+        //const allTasks = await pool.query("SELECT * FROM tasks INNER JOIN answers ON answers.task_id = tasks.task_id");
+        const allTasks = await pool.query("SELECT * FROM tasks");
+        const allAnswers = await pool.query("SELECT * FROM answers");
+        
+        for (const task of allTasks.rows) {
+            let answers = [];
+
+            for (const answer of allAnswers.rows) {
+                console.log(answer)
+
+                if(task.task_id == answer.task_id)
+                    answers.push(answer);
+            }
+
+            task.answers = answers;
+            console.log(answers[1])
+        }
+        
+        res.json(allTasks.rows);
     } catch(err) {
         console.error(err.message);
     }

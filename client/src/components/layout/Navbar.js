@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "../../styles/Layout.css"
 
 const Navbar = ({isAuthenticated, setAuth}) => {
@@ -34,7 +35,12 @@ const Navbar = ({isAuthenticated, setAuth}) => {
                         :
                             ""
                     }
-                    <a href="/dashboard">Profil</a>
+                    {
+                        isAuthenticated ? 
+                            <a href="/dashboard">Profil</a> 
+                        :
+                            ""
+                    }
                     {
                         isAuthenticated ? 
                             <a href="/" onClick={e => logout(e)}>Kilépés</a>   
