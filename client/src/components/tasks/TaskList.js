@@ -13,7 +13,8 @@ const TaskList = (props, {setAuth}) => {
     const [tasks, setTasks] = useState(props.location.state.tasks);
     const [index, setIndex] = useState(0);
     const current = tasks[index];
-    const comp_category = current.text_category;
+    console.log(tasks)
+    const comp_category = current.task_type;
     const componentOf = {
       simple: Simple_Task,
       glazed: Glazed_Task,
@@ -34,12 +35,12 @@ const TaskList = (props, {setAuth}) => {
                 category={current.category}
                 task_id={current.task_id}
                 test_id={current.test_id}
-                text_category={current.text_category}
+                text_category={current.task_type}
                 text_of_the_question={current.text_of_the_question}
                 answers={current.answers}
                 points={current.points}
                 title={props.location.state.title}
-                array={current.array}
+                array={current.choice_array}
               />
             }
     <p className="test-length">Tesztfeladatok: {index + 1}/{len}</p>
