@@ -149,9 +149,9 @@ app.get("/tasks", async(req, res) => {
 //CREATE A TASK
 app.post("/tasks", async(req, res) => {
     try {
-        const {test_id, category, task_type, text_of_the_question, points} = req.body;
-        const newTask = await pool.query("INSERT INTO tasks (test_id, category, task_type, text_of_the_question, points) VALUES ($1, $2, $3, $4, $5) RETURNING *",
-         [test_id, category, task_type, text_of_the_question, points]
+        const {test_id, category, task_type, text_of_the_question, points, choice_array} = req.body;
+        const newTask = await pool.query("INSERT INTO tasks (test_id, category, task_type, text_of_the_question, points, choice_array) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+         [test_id, category, task_type, text_of_the_question, points, choice_array]
         );
 
         res.json(newTask.rows[0]);
@@ -174,9 +174,9 @@ app.get("/answers", async(req, res) => {
 //CREATE A TASK
 app.post("/answers", async(req, res) => {
     try {
-        const {task_id, answer_text, correct} = req.body;
-        const newAnswer = await pool.query("INSERT INTO answers (task_id, answer_text, correct) VALUES ($1, $2, $3) RETURNING *",
-         [task_id, answer_text, correct]
+        const {task_id, question_text, answer_text, correct} = req.body;
+        const newAnswer = await pool.query("INSERT INTO answers (task_id, answer_text, correct, question_text) VALUES ($1, $2, $3, $4) RETURNING *",
+         [task_id, answer_text, correct, question_text]
         );
 
         res.json(newAnswer.rows[0]);
