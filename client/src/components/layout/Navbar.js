@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 import "../../styles/Layout.css"
 
-const Navbar = ({isAuthenticated, setAuth}) => {
+const Navbar = ({isAuthenticated, setAuth, role}) => {
 
     const logout = (e) => {
         e.preventDefault();
@@ -30,7 +30,7 @@ const Navbar = ({isAuthenticated, setAuth}) => {
                     <a href="/about">Rólunk</a>
                     <a href="/menu">Menü</a>
                     {
-                        isAuthenticated && localStorage.role == 3 ? 
+                        role == 3 ? 
                             <a href="/teachers">Tanároknak</a>  
                         :
                             ""

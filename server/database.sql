@@ -110,8 +110,15 @@ CREATE TABLE tasks(
 	task_type VARCHAR(150),
 	text_of_the_question TEXT,
 	answers TEXT[],
-	points INT
+	points INT,
+
+	CONSTRAINT fk_tests FOREIGN KEY(test_id)
+	REFERENCES tests(test_id) ON DELETE CASCADE
 );
+
+ALTER TABLE tasks
+	ADD CONSTRAINT fk_tests FOREIGN KEY(test_id)
+	REFERENCES tests(test_id) ON DELETE CASCADE;
 
 CREATE TABLE answers(
 	answer_id SERIAL PRIMARY KEY,
@@ -123,13 +130,45 @@ CREATE TABLE answers(
 	REFERENCES tasks(task_id) ON DELETE CASCADE
 );
 
-INSERT INTO tasks (test_id, category, task_type, text_of_the_question, points) VALUES (
-	2,
-	"Az állítmány",
-	"simple",
-	"A lusta Mirci a verandán aludt. Mi a mondat állítmánya?",
-	10
+CREATE TABLE schools(
+	school_id SERIAL PRIMARY KEY,
+	name VARCHAR(250),
+	address VARCHAR(250),
+	email VARCHAR(250)
 );
+
+CREATE TABLE classes (
+	class_id SERIAL PRIMARY KEY,
+	class_name VARCHAR(255),
+	school_id INT,
+	teacher_id INT,
+
+	CONSTRAINT fk_schools FOREIGN KEY(school_id)
+	REFERENCES schools(school_id) ON DELETE CASCADE,
+	CONSTRAINT fk_teachers FOREIGN KEY(teacher_id)
+	REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE tests (
+	test_id SERIAL PRIMARY KEY,
+	title VARCHAR(255),
+	owner_id INT,
+	class_id INT,
+	public BOOLEAN,
+
+	CONSTRAINT fk_classes FOREIGN KEY(class_id)
+	REFERENCES classes(class_id) ON DELETE CASCADE
+);
+
+   "task_id": 2,
+        "test_id": 1,
+        "category": "Az alany",
+        "task_type": "dropdownlist",
+        "text_of_the_question": "Határozd meg a megadott mondatok alanyának fajtáját és válaszd ki a megfelelőt a legördülő listából.",
+        "answers": [
+
+
+INSERT INTO tests (title) VALUES ('Teszt 1');
 
 INSERT INTO answers (task_id, answer_text, correct) VALUES (
 	1,

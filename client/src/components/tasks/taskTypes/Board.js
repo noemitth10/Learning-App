@@ -8,7 +8,6 @@ function Board(props) {
   const [modalHeader, setModalHeader] = useState(null);
   const [modalText, setModalText] = useState(null);
   const [prevPoints, setPrevPoints] = useState(localStorage.points);
-  console.log("eddigi pontok: ", prevPoints)
   localStorage.setItem("newpoints", 0)
 
   const updateUserPoints = async( user_id, points) => {
@@ -32,19 +31,15 @@ function Board(props) {
     const drop = (e) => {
       e.preventDefault();
       const card_id = e.dataTransfer.getData("card_id");
-      console.log(card_id);
-      console.log(good_answer);
   
       const card = document.getElementById(card_id);
       if (card_id == good_answer) {
-        console.log("good answer");
         localStorage.setItem("newpoints",  parseInt(localStorage.newpoints) + 10)
         card.style.display = "block";
         card.draggable = false;
   
         e.target.appendChild(card);
       } else if (card_id != good_answer) {
-        console.log("bad answer");
         card.style.display = "block";
       } else {
         card.style.display = "absolute";

@@ -39,6 +39,7 @@ const Dashboard = ({setAuth}) => {
         e.preventDefault();
 
         localStorage.removeItem("token");
+        localStorage.removeItem("role");
         setAuth(false);
     }
 

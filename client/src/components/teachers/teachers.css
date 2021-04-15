@@ -1,0 +1,21 @@
+.teachers-container h3 {
+    width: 100%;
+}
+
+.test-form-container {
+    padding: 1% 2%;
+}
+
+.test-padding-container {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.test-padding-container label {
+    padding-right: 2%;
+}
+
+.test-form-container button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

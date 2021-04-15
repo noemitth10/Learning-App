@@ -19,6 +19,8 @@ import Board from "./components/tasks/taskTypes/Board";
 
 import { TaskProvider } from "./components/tasks/TaskContext";
 import TaskList from "./components/tasks/TaskList";
+import EditTest from "./components/teachers/EditTest"
+import MyTestList from "./components/teachers/MyTestList"
 
 function Task() {
   return (
@@ -32,7 +34,6 @@ function Task() {
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const role = localStorage.role;
-  console.log(role)
 
   const setAuth = boolean => {
     setIsAuthenticated(boolean);
@@ -40,7 +41,6 @@ function App() {
 
   useEffect(() => {
     checkAuthenticated();
-    console.log(isAuthenticated)
   });
 
   async function checkAuthenticated() {
@@ -51,7 +51,6 @@ function App() {
       });
 
       const parseRes = await response.json();
-      console.log("eredmeny: ", parseRes);
       parseRes === true ? setIsAuthenticated(true) : setIsAuthenticated(false);
     
     } catch (err) {
@@ -62,7 +61,7 @@ function App() {
   return (
     <>
         <Board>
-        <Navbar isAuthenticated={isAuthenticated} setAuth={setAuth}/>
+        <Navbar isAuthenticated={isAuthenticated} setAuth={setAuth} role={role}/>
         <div className="body-container">
         <Router>
           <div className="container">
@@ -72,7 +71,9 @@ function App() {
             <Route exact path="/dashboard"  render={props => isAuthenticated ? <Dashboard {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
             <Route exact path="/update"  render={props => isAuthenticated ? <UpdateUser {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
             <Route exact path="/test:test_id"  render={props => isAuthenticated ? <Task {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/teachers"  render={props => role == 3 ? <JustForTeachers {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+            <Route exact path="/teachers"  render={props =>  role == 3 ? <JustForTeachers {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+            <Route exact path="/edit-test"  render={props =>  role == 3 ? <EditTest {...props}/> : <Redirect to="/login" />}/>
+            <Route exact path="/my-test-list"  render={props =>  role == 3 ? <MyTestList {...props}/> : <Redirect to="/login" />}/>
             <Route exact path="/" component={Main} />
             <Route exact path="/about" component={About} />
             <Route exact path="/menu" component={Menu} />

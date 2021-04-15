@@ -211,6 +211,44 @@ app.get("/tasks_with_answers", async(req, res) => {
     }
 })
 
+     /*  
+        answers: [],                       //tasks db       
+        points: 0,                     //tasks db
+        question_text: undefined,          //answers db
+        answer_text: undefined,              //answers db
+        correct: undefined                //answers db*/
+
+app.post("/edit_test", async(req, res) => {
+    try {
+        const {title, test_type, owner_id, class_id, is_public, category, text_of_the_question, points, answersList } = req.body;
+
+        const newTest = await pool.query("INSERT INTO tests (title, owner_id, class_id, public) VALUES ($1, $2, $3, $4) RETURNING *",
+         [title, owner_id, class_id, is_public]
+        );
+
+        last_test = await pool.query("SELECT test_id, title FROM tests ORDER BY test_id DESC LIMIT 1");
+        console.log(last_test.rows[0].test_id)
+
+        const newTask = await pool.query("INSERT INTO tasks (test_id, task_type, category, text_of_the_question, points) VALUES ($1, $2, $3, $4, $5) RETURNING *",
+         [last_test.rows[0].test_id, test_type, category, text_of_the_question, points]
+        );
+
+        last_task = await pool.query("SELECT task_id, task_type FROM tasks ORDER BY task_id DESC LIMIT 1");
+
+        console.log(answersList)
+        for (const answer of answersList) {
+            console.log(answer)
+            const {question_text, answer_text, correct} = answer;
+            const newAnswer = await pool.query("INSERT INTO answers (task_id, answer_text, correct, question_text) VALUES ($1, $2, $3, $4) RETURNING *",
+            [last_task.rows[0].task_id, answer_text, correct, question_text]);
+        }
+
+        res.json(newTask.rows[0]);
+    } catch (error) {
+        console.log(error.message)
+    }
+})
+
 //start server: node_modules/.bin/nodemon index
 app.listen(5000, () => {
     console.log("server has started on port 5000")

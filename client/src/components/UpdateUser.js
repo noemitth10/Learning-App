@@ -20,8 +20,6 @@ const UpdateUser = ({setAuth}) => {
         city: user.city
      });
 
-     console.log(inputs)
-
     const {user_id, email, name, date_of_birth, gender, city} = inputs;
 
     const addModalClose = () => setModalShow(false);
@@ -29,7 +27,6 @@ const UpdateUser = ({setAuth}) => {
     const onChange = (e) => {
         setInputs({...inputs, [e.target.name]
         : e.target.value});
-        console.log(gender);
     }
 
     async function onSubmitForm(e) {
