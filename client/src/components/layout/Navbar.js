@@ -32,7 +32,7 @@ const Navbar = ({isAuthenticated, setAuth, role}) => {
                     <a href="/about">Rólunk</a>
                     <a href="/menu">Menü</a>
                     {
-                        isAuthenticated && role == 3 ? 
+                        role == 3 && isAuthenticated ? 
                             <a href="/teachers">Tanároknak</a>  
                         :
                             ""

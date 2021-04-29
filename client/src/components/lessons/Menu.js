@@ -29,7 +29,10 @@ const Menu = (props) => {
             <div className="title-container">
                 <h1>Menü</h1>
             </div>
-            
+                {
+                    lessons.length == 0 && 
+                    <p style={{padding: "2%"}}>Nincsenek megjeleníthető leckék.</p>
+                }
                 {lessons.map(lesson => (
                   <div className="menu-points">
                     <div className="menu-left">

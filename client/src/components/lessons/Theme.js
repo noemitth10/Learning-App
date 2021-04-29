@@ -16,7 +16,6 @@ const Theme = (props) => {
     const [alttasks, setAlttasks] = useState([]);
     const [otherTasks, setOtherTasks] = useState([]);
     let list = [];
-
     
     const getTasks = async() => {
         try {
@@ -35,6 +34,7 @@ const Theme = (props) => {
 
 
     function sortTestsByID(test_id) {
+        console.log(tasks)
         tasks.map(task => {
           task.test_id === test_id && task.category === props.location.state.category ?
           list.push(task) : setOtherTasks(task)
@@ -48,21 +48,26 @@ const Theme = (props) => {
             </div>
             <p>{props.location.state.text_of_lesson}</p>
             <h2>Tesztfeladatok</h2>
-            {testID.map(test => (
-                <>
-                    <p>
-                        <Link
-                            onClick={(() => sortTestsByID(test.id))}
-                            to={{
-                                pathname: `/test-${test.id}`,
-                                state: { test_id : test.id,
-                                        tasks: list,
-                                        title: `Feladatsor ${test.id}.` }
-                            }}
-                        >Feladatsor {test.id}.</Link>
-                    </p>
-                </>      
-            ))}
+            {
+                    tasks.length == 0 ? 
+                    <p style={{padding: "2%"}}>Nincsenek megjeleníthető tesztfeladatok.</p>
+                    :
+                    testID.map(test => (
+                        <>
+                            <p>
+                                <Link
+                                    onClick={(() => sortTestsByID(test.id))}
+                                    to={{
+                                        pathname: `/test-${test.id}`,
+                                        state: { test_id : test.id,
+                                                tasks: list,
+                                                title: `Feladatsor ${test.id}.` }
+                                    }}
+                                >Feladatsor {test.id}.</Link>
+                            </p>
+                        </>      
+                    ))
+            }      
         </>
     )
 }
