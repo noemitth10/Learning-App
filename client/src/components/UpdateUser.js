@@ -8,7 +8,12 @@ import {Redirect} from 'react-router-dom';
 import "../styles/User_profile.css"
 
 const UpdateUser = ({setAuth}) => {
+    const [modalTitle, setModalTitle] = useState(null);
+    const [modalHeader, setModalHeader] = useState(null);
     const [modalShow, setModalShow] = React.useState(false);
+
+    const addModalClose = () => setModalShow(false);
+
     const user = JSON.parse(localStorage.getItem("user") || "[]");
 
     const [inputs, setInputs] = useState({
@@ -21,8 +26,6 @@ const UpdateUser = ({setAuth}) => {
      });
 
     const {user_id, email, name, date_of_birth, gender, city} = inputs;
-
-    const addModalClose = () => setModalShow(false);
 
     const onChange = (e) => {
         setInputs({...inputs, [e.target.name]
@@ -40,6 +43,8 @@ const UpdateUser = ({setAuth}) => {
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(body)
             });
+            setModalTitle("Sikeres szerkesztés.");
+            setModalHeader("Az Ön adatait frissítettük.");
             setModalShow(true);
             
         } catch (error) {
@@ -56,7 +61,7 @@ const UpdateUser = ({setAuth}) => {
             <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" alt="Userpicture"/>
             <div className="buttons">
                 <button className="btn btn-primary logout-button" disabled>Profilkép szerkesztése</button>
-                <button className="btn btn-primary logout-button"><Link to="/dashboard">Vissza mentés nélkül</Link></button>
+                <button className="btn btn-primary logout-button"><Link to="/dashboard">Vissza</Link></button>
             </div>
             
         </div>
@@ -74,15 +79,13 @@ const UpdateUser = ({setAuth}) => {
                 Mentés
             </button>
         </form>
-        <button className="btn btn-warning logout-button">Profil törlése</button>
-              <ButtonToolbar>
-                <AddModal
-                  show={modalShow}
-                  onHide={addModalClose}
-                  modalTitle={"Sikeres mentés."}
-                  modalHeader={"A felhasználó új adatai mentésre kerültek."}
-                />
-              </ButtonToolbar>
+        <button className="btn btn-warning logout-button"><Link to="/delete_profile">Profil törlése</Link></button>
+            <AddModal
+              show={modalShow}
+              onHide={addModalClose}
+              modalTitle={modalTitle}
+              modalHeader={modalHeader}
+            />
         </div>
     </>
     )

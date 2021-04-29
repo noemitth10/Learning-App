@@ -39,17 +39,14 @@ const Simple_Task = ({
 
     const correctAnswer = (value, text) => {
         if (value == true) {
-          console.log("success");
           setModalTitle("Sikerült.");
           setModalHeader("Gratulálunk! A válaszod helyes." + points + " pontban részesülsz.");
           setModalText("A helyes válasz: " + text);
           var count = parseInt(localStorage.points) + points;
-          console.log(count)
           localStorage.setItem("points", count);
           updateUserPoints(localStorage.user_id, count);
           setModalShow(true);
         } else {
-          console.log("warning");
           setModalTitle("Rossz válasz.");
           setModalHeader("Ez most nem sikerült.");
           setModalText("A válaszod helytelen.");

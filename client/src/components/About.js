@@ -1,5 +1,6 @@
 import "../styles/About_us.css"
 import aboutUsNoemi from "../styles/images/about_us_noemi.jpeg";
+import aboutUsGyozo from "../styles/images/about_us_gyozo.jpg";
 
 const About = () => { 
     return (
@@ -29,7 +30,7 @@ const About = () => {
                 </div>
                 <div className="right">
                     <img
-                        src="https://scontent-otp1-1.xx.fbcdn.net/v/t31.0-8/26172060_10214727492160163_1844122346601436390_o.jpg?_nc_cat=110&ccb=3&_nc_sid=09cbfe&_nc_ohc=HDL1sMgh6Q8AX-Ybfr8&_nc_ht=scontent-otp1-1.xx&oh=103ddf39da283e91504d852d65834731&oe=60652F1F"
+                        src={aboutUsGyozo}
                         alt="avatar"
                     />
                     <h3>Dr. Yang Zijian Győző</h3>

@@ -26,22 +26,18 @@ const Pairing_Task = ({
   var firstid;
   var secondid;
   var len = answers.length;
-  console.log("DB: ", len)
 
   const setId = (buttonid, id) => {
-    console.log("Clicked button id: ", buttonid)
 
     if (chosen_points == 0) {
       firstid = buttonid;
       chosen_points += 1;
       pointed_first_id = id;
-      console.log("First id: " + pointed_first_id);
       document.getElementById(buttonid).style.outline = "#dbeb34 solid 3px";
     } else {
       secondid = buttonid;
       chosen_points += 1;
       pointed_second_id = id;
-      console.log("Second id: " + pointed_second_id);
       document.getElementById(buttonid).style.outline = "#dbeb34 solid 3px";
     }
 
@@ -51,9 +47,7 @@ const Pairing_Task = ({
         document.getElementById("btn-right-" + id).style.outline = "#4CAF50 solid 3px";
         document.getElementById("btn-left-" + id).disabled = true;
         document.getElementById("btn-right-" + id).disabled = true;
-        console.log("good answer");
         len = len - 1;
-        console.log("DB: ", len)
 
         if(len === 0) {
           localStorage.setItem("points", parseInt(prevPoints) + parseInt(40));
@@ -68,14 +62,11 @@ const Pairing_Task = ({
       else {
         document.getElementById(firstid).style.outline = "#eb4034 solid 3px";
         document.getElementById(secondid).style.outline = "#eb4034 solid 3px";
-        console.log(firstid)
-        console.log(secondid)
 
         setTimeout(() => {
           document.getElementById(firstid).style.outline = "none";
           document.getElementById(secondid).style.outline = "none"; 
         }, 1000);
-        console.log("bad answer");
       }
       chosen_points = 0;
     }
@@ -115,7 +106,7 @@ const Pairing_Task = ({
           <p className="points">Pontjaim: {localStorage.points}</p>
         </div>
       </div>
-      <p>{text_of_the_question}</p>
+      <p className="text">{text_of_the_question}</p>
       <div>
           <div className="left-side">
             {shuffleArray(answers.map((answer) => (

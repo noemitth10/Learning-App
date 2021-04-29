@@ -16,3 +16,8 @@
 .p-link {
     color: dodgerblue;
 }
+
+.error-message {
+    display: none;
+    color: red;
+}

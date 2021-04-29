@@ -13,8 +13,9 @@ const TaskList = (props, {setAuth}) => {
     const [tasks, setTasks] = useState(props.location.state.tasks);
     const [index, setIndex] = useState(0);
     const current = tasks[index];
-    console.log(tasks)
+
     const comp_category = current.task_type;
+    
     const componentOf = {
       simple: Simple_Task,
       glazed: Glazed_Task,

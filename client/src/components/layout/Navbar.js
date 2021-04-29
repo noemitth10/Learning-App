@@ -9,6 +9,7 @@ const Navbar = ({isAuthenticated, setAuth, role}) => {
 
         localStorage.removeItem("token");
         localStorage.removeItem("role");
+        localStorage.removeItem("user_id");
         setAuth(false);
     }
 
@@ -27,10 +28,11 @@ const Navbar = ({isAuthenticated, setAuth, role}) => {
                 <div className="logo">
                     <a className="logo" href="/">LMEZZ</a>
                 </div>
+                    <a href="/analyse">Elemezz!</a>
                     <a href="/about">Rólunk</a>
                     <a href="/menu">Menü</a>
                     {
-                        role == 3 ? 
+                        isAuthenticated && role == 3 ? 
                             <a href="/teachers">Tanároknak</a>  
                         :
                             ""
@@ -47,7 +49,7 @@ const Navbar = ({isAuthenticated, setAuth, role}) => {
                         :
                             <div>
                                 <a href="/login">Belépés</a>
-                            <a href="/register">Regisztráció</a>
+                                <a href="/register">Regisztráció</a>
                             </div>
                     }
             </nav>

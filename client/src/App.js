@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect, Link } from "react-router-dom"
+
 import './App.css';
 
 import Navbar from "./components/layout/Navbar"
@@ -10,17 +11,21 @@ import Dashboard from "./components/Dashboard"
 import UpdateUser from "./components/UpdateUser"
 import Login from "./components/Login"
 import Register from "./components/Register"
+import DeleteUser from "./components/DeleteUser"
 import Menu from "./components/lessons/Menu"
 import Theme from "./components/lessons/Theme"
-import PracticeList from "./components/lessons/PracticeList"
 import JustForTeachers from "./components/JustForTeachers"
 import SVGComponent from "./components/SVGComponent"
 import Board from "./components/tasks/taskTypes/Board";
+import NotFoundPage from "./components/NotFoundPage"
 
 import { TaskProvider } from "./components/tasks/TaskContext";
 import TaskList from "./components/tasks/TaskList";
 import EditTest from "./components/teachers/EditTest"
 import MyTestList from "./components/teachers/MyTestList"
+import MyTest from "./components/teachers/MyTest"
+
+import LmezzModel from "./components/model/LmezzModel"
 
 function Task() {
   return (
@@ -37,6 +42,7 @@ function App() {
 
   const setAuth = boolean => {
     setIsAuthenticated(boolean);
+    if(isAuthenticated == false) localStorage.removeItem("user_id");
   };
 
   useEffect(() => {
@@ -61,31 +67,34 @@ function App() {
   return (
     <>
         <Board>
-        <Navbar isAuthenticated={isAuthenticated} setAuth={setAuth} role={role}/>
-        <div className="body-container">
-        <Router>
-          <div className="container">
-          <Switch>
-            <Route exact path="/login" render={props => !isAuthenticated ? <Login {...props} setAuth={setAuth}/> : <Redirect to="/dashboard" />}/>
-            <Route exact path="/register"  render={props => !isAuthenticated ?  <Register {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/dashboard"  render={props => isAuthenticated ? <Dashboard {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/update"  render={props => isAuthenticated ? <UpdateUser {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/test:test_id"  render={props => isAuthenticated ? <Task {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/teachers"  render={props =>  role == 3 ? <JustForTeachers {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
-            <Route exact path="/edit-test"  render={props =>  role == 3 ? <EditTest {...props}/> : <Redirect to="/login" />}/>
-            <Route exact path="/my-test-list"  render={props =>  role == 3 ? <MyTestList {...props}/> : <Redirect to="/login" />}/>
-            <Route exact path="/" component={Main} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/menu" component={Menu} />
-            <Route exact path="/test" component={SVGComponent} />
-            <Route exact path="/lesson-:lesson_id" component={Theme} />
-          </Switch>
-          </div>
-          </Router>
-          </div>
+          <Navbar isAuthenticated={isAuthenticated} setAuth={setAuth} role={role}/>
+            <div className="body-container">
+              <Router>
+                <div className="container">
+                  <Switch>
+                      <Route exact path="/login" render={props => !isAuthenticated ? <Login {...props} setAuth={setAuth}/> : <Redirect to="/dashboard" />}/>
+                      <Route exact path="/register"  render={props => <Register {...props} setAuth={setAuth}/>}/>
+                      <Route exact path="/dashboard"  render={props => isAuthenticated ? <Dashboard {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/update"  render={props => isAuthenticated ? <UpdateUser {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/delete_profile"  render={props => isAuthenticated ? <DeleteUser {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/test:test_id"  render={props => isAuthenticated ? <Task {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/teachers"  render={props =>   role == 3 ? <JustForTeachers {...props} setAuth={setAuth}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/edit-test"  render={props =>  role == 3 ? <EditTest {...props}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/my-test-list"  render={props =>   role == 3 ? <MyTestList {...props}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/my-test-:task_id"  render={props =>   role == 3 ? <MyTest {...props}/> : <Redirect to="/login" />}/>
+                      <Route exact path="/" component={Main} />
+                      <Route exact path="/about" component={About} />
+                      <Route exact path="/menu" component={Menu} />
+                      <Route exact path="/test" component={SVGComponent} />
+                      <Route exact path="/lesson-:lesson_id" component={Theme} />
+                      <Route exact path="/analyse" component={LmezzModel} />
+                      <Route component={NotFoundPage} />
+                  </Switch>
+                </div>
+              </Router>
+            </div>
           <Footer/>
-          </Board>
-          
+        </Board>
     </>
   );
 }

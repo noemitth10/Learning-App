@@ -40,6 +40,7 @@ const Dashboard = ({setAuth}) => {
 
         localStorage.removeItem("token");
         localStorage.removeItem("role");
+        localStorage.removeItem("user_id");
         setAuth(false);
     }
 
@@ -63,7 +64,6 @@ const Dashboard = ({setAuth}) => {
         <div className="container-left">
             <h2>Személyes adatok</h2>
             <p>Email cím: {user.email}</p>
-            {console.log(user.date_of_birth)}
             <p>Születési dátum: {birthDate}</p>
             <p>Nem: {user.gender}</p>
             <p>Város: {user.city}</p>

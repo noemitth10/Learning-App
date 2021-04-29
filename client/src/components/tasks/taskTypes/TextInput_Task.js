@@ -16,6 +16,14 @@ const TextInput_Task = ({
     array
   }) => {
 
+    if(array == undefined) {
+      array = [];
+      
+      for (const answer of answers) {
+          array.push(answer.question_text)
+      }
+    }
+
     let oldArray = array;
     const [modalShow, setModalShow] = React.useState(false);
     const addModalClose = () => setModalShow(false);
@@ -54,17 +62,12 @@ const TextInput_Task = ({
         value = value.replace(/[0-9]/g, '');
         value = value.replace(/[&\/\\#,+()$~%'":*?<>{}|]/g, '');
         value = value.trim();
-        console.log("value: ", value)
-        console.log("answer: ", answer)
         if (value == answer) {
-          console.log("success");
           document.getElementById(id).disabled = true;
           document.getElementById(id).value = answer;
           document.getElementById(id).style.outline = "#4CAF50 solid 3px";
           solutions = solutions + 1;
-          console.log(solutions)
         } else {
-          console.log("warning");
           document.getElementById(id).style.outline = "#eb4034 solid 3px";
         }
 

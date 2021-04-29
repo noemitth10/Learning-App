@@ -16,6 +16,14 @@ const DropDownList_Task = ({
     array
   }) => {
 
+    if(true) {
+      array = [];
+      
+      for (const answer of answers) {
+          array.push(answer.answer_text)
+      }
+    }
+
     let oldArray = array;
     const [modalShow, setModalShow] = React.useState(false);
     const addModalClose = () => setModalShow(false);
@@ -67,13 +75,10 @@ const DropDownList_Task = ({
 
     const correctAnswer = (value, answer, id) => {
         if (value == answer) {
-          console.log("success");
           document.getElementById(id).disabled = true;
           document.getElementById(id).style.outline = "#4CAF50 solid 3px";
           solutions = solutions + 1;
-          console.log(solutions)
         } else {
-          console.log("warning");
           document.getElementById(id).style.outline = "#eb4034 solid 3px";
         }
 

@@ -1,7 +1,4 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom"
-import { TaskContext, TaskProvider } from "../tasks/TaskContext";
-import TaskList from "../tasks/TaskList"
 
 import "../../styles/Themes.css"
 

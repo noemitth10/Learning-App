@@ -103,27 +103,34 @@ CREATE TABLE sentence_words(
 	REFERENCES words(word_id) ON DELETE CASCADE
 );
 
+CREATE TABLE tests (
+	test_id INT,
+	title VARCHAR(255),
+	owner_id INT,
+	class_id INT,
+	public BOOLEAN,
+
+	CONSTRAINT fk_classes FOREIGN KEY(class_id)
+	REFERENCES classes(class_id) ON DELETE CASCADE
+);
+
 CREATE TABLE tasks(
-	task_id SERIAL PRIMARY KEY,
+	task_id INT,
 	test_id INT,
 	category VARCHAR(150),
 	task_type VARCHAR(150),
 	text_of_the_question TEXT,
 	answers TEXT[],
 	points INT,
-
-	CONSTRAINT fk_tests FOREIGN KEY(test_id)
-	REFERENCES tests(test_id) ON DELETE CASCADE
+	choice_array TEXT[]
 );
 
-ALTER TABLE tasks
-	ADD CONSTRAINT fk_tests FOREIGN KEY(test_id)
-	REFERENCES tests(test_id) ON DELETE CASCADE;
 
 CREATE TABLE answers(
 	answer_id SERIAL PRIMARY KEY,
 	task_id INT,
 	answer_text VARCHAR(250),
+	question_text VARCHAR(250),
 	correct BOOLEAN,
 
 	CONSTRAINT fk_tasks FOREIGN KEY(task_id)
@@ -151,7 +158,7 @@ CREATE TABLE classes (
 
 CREATE TABLE tests (
 	test_id SERIAL PRIMARY KEY,
-	title VARCHAR(255),
+	title VARCHAR(255)
 	owner_id INT,
 	class_id INT,
 	public BOOLEAN,

@@ -1,0 +1,54 @@
+.model-input {
+    padding: 2% 1%;
+}
+
+.model-btn {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.input-text {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.model-output {
+    margin-left: 10%;
+    width: 80%;
+    align-content: center;
+}
+
+.fancy_box {
+    display:inline-block;
+    position: relative;
+    background-color: #bbe77e;
+    padding: 1%;
+    border: 2px solid #73AD21;
+    text-align: center;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 25px;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 1030px) {
+    .fancy_box {
+        width: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fancy_box {
+        width: 80%;
+    }
+  }
+
+/*
+alany: #ff8566, #ff3300
+állítmány: bbe77e, 73AD21
+tárgy: #ffff80, #ffff33
+határozó: #b3ecff, #1ac6ff
+jelző: #d9b3ff, #a64dff
+*/

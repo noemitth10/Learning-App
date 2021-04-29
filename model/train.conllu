@@ -1,0 +1,1545 @@
+1	A	a	DET	X	_	2	X	_	_
+2	nyomor	nyomor	NOUN	J	_	3	Jbirt	_	_
+3	országairól	ország	NOUN	H	_	5	Háld	_	_
+4	térképet	térkép	NOUN	T	_	5	Herdny	_	_
+5	rajzol	rajzol	VERB	Á	_	0	Á	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	penész	penész	NOUN	A	_	5	A	_	_
+8	.	.	PUNCT	X	_	5	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	ember	ember	NOUN	A	_	4	A	_	_
+3	gyakran	gyakran	ADV	H	_	4	Hszám	_	_
+4	téved	téved	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Magam	maga	NOUN|PRON	A	_	2	A	_	_
+2	megyek	megy	VERB	Á	_	0	Á	_	_
+3	el	el	IK	P	_	2	P	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	-kevés	-kevés	NOUN	Á	_	0	Á	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	fóka	fóka	NOUN	A	_	1	A	_	_
+4	.	.	PUNCT	X	_	1	X	_	_
+
+1	Küldjétek	Küldjétek	VERB	Á	_	0	Á	_	_
+2	el	el	IK	P	_	1	P	_	_
+3	őket	ők	NOUN|PRON	T	_	1	T	_	_
+4	csak	csak	ADV	X	_	5	X	_	_
+5	egy	egy	DET	J	_	6	Jmenny	_	_
+6	éjszakára	éjszaka	NOUN	H	_	1	Hidő	_	_
+7	!	!	PUNCT	X	_	1	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	egész	egész	ADJ	J	_	3	Jmenny	_	_
+3	családot	család	NOUN	T	_	4	T	_	_
+4	meghívja	meghív	VERB	Á	_	0	Á	_	_
+5	ebédre	ebéd	NOUN	H	_	4	Háld	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Villámlik	villámlik	VERB	Á	_	0	Á	_	_
+2	.	.	PUNCT	X	_	1	X	_	_
+
+1	Kenyérrel	kenyér	NOUN	H	_	2	Heszk	_	_
+2	kínálta	kínál	VERB	Á	_	0	Á	_	_
+3	meg	meg	IK	P	_	2	P	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	vendégeket	vendég	NOUN	T	_	2	T	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	gyerekek	gyerek	NOUN	A	_	5	A	_	_
+3	manapság	manapság	ADV	H	_	5	Hidő	_	_
+4	igen	igen	ADV	H	_	5	Hfm	_	_
+5	magasak	magas	ADJ	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Milyen	milyen	ADJ|PRON	J	_	2	Jmin	_	_
+2	ajándékot	ajándék	NOUN	T	_	3	Herdny	_	_
+3	készítsek	készít	VERB	Á	_	0	Á	_	_
+4	neked	te	NOUN|PRON	H	_	3	Hrész	_	_
+5	?	?	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	_	_	_	_	_	_
+2	nagymama	nagymama	NOUN	A	_	5	A	_	_
+3	minden	minden	NOUN|PRON	J	_	4	Jkij	_	_
+4	este	este	ADV	H	_	5	Hidő	_	_
+5	főz	főz	VERB	Á	_	0	Á	_	_
+6	vacsorát	vacsora	NOUN	T	_	5	Herdny	_	_
+7	.	.	PUNCT	X	_	5	X	_	_
+
+1	Beírtak	beír	VERB	Á	_	0	Á	_	_
+2	engem	én	NOUN|PRON	T	_	1	T	_	_
+3	mindenféle	mindenféle	NOUN	J	_	4	J	_	_
+4	Könyvbe	könyv	NOUN	H	_	1	Hhely	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Minden	minden	NOUN|PRON	J	_	2	Jmenny	_	_
+2	örömöm	öröm	NOUN	T	_	3	T	_	_
+3	megkétszerezem	megkétszerez	VERB	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Viktor	Viktor	NOUN	A	_	3	A	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	barátom	barát	NOUN	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	gyerekek	gyerek	NOUN	A	_	4	A	_	_
+3	dolgozatot	dolgozat	NOUN	T	_	4	T	_	_
+4	írnak	ír	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Atlasz	atlasz	NOUN	A	_	2	A	_	_
+2	bírhatja	bír	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	földgömböt	földgömb	NOUN	T	_	5	T	_	_
+5	vinni	visz	VERB	T	_	2	T	_	_
+6	,	,	PUNCT	X	_	5	X	_	_
+
+1	Valami	valami	NOUN|PRON	A	_	2	A	_	_
+2	bűzlik	bűzlik	VERB	Á	_	0	Á	_	_
+3	Dániában	Dánia	NOUN	H	_	2	Hhely	_	_
+4	.	.	PUNCT	X	_	2	X	_	_
+
+1	Szomorú	szomorú	ADJ	P	_	2	P	_	_
+2	volt	van	VERB	Á	_	0	Á	_	_
+3	az	az	DET	X	_	4	X	_	_
+4	arca	arc	NOUN	A	_	2	A	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	barátomnak	barát	NOUN	J	_	4	Jbirt	_	_
+7	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	vőlegény	vőlegény	NOUN	A	_	4	A	_	_
+3	nemet	nem	NOUN	T	_	4	Herdny	_	_
+4	mondott	mond	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Szép	szép	ADJ	H	_	2	Hfm	_	_
+2	tisztán	tisztán	ADV	H	_	3	Hmód	_	_
+3	beszél	beszél	VERB	Á	_	0	Á	_	_
+4	magyarul	magyar	ADJ	H	_	3	Háld	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Dobbal	dob	NOUN	H	_	5	Heszk	_	_
+2	nem	nem	ADV	P	_	3	P	_	_
+3	lehet	van	VERB	Á	_	0	Á	_	_
+4	verebet	vereb	NOUN	T	_	5	T	_	_
+5	fogni	fog	VERB	A	_	3	A	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	diákok	diák	NOUN	A	_	3	A	_	_
+3	szorgalmasak	szorgalmas	ADJ	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Elveheted	Elveheted	NOUN	Á	_	0	Á	_	_
+2	az	az	DET	X	_	4	X	_	_
+3	én	én	NOUN|PRON	J	_	4	Jbirt	_	_
+4	tollamat	toll	NOUN	T	_	1	T	_	_
+5	is	is	ADV	X	_	4	X	_	_
+6	.	.	PUNCT	X	_	1	X	_	_
+
+1	Ezt	ez	NOUN|PRON	J	_	4	Jkij	_	_
+2	a	a	DET	X	_	4	X	_	_
+3	vad	vad	ADJ	J	_	4	Jmin	_	_
+4	mezőt	mező	NOUN	T	_	5	T	_	_
+5	ismerem	ismer	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Petőfi	Petőfi	NOUN	A	_	4	A	_	_
+2	nagy	nagy	ADJ	J	_	3	Jmin	_	_
+3	tehetség	tehetség	NOUN	P	_	4	P	_	_
+4	volt	van	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Szabad	szabad	ADJ	J	_	2	Jmin	_	_
+2	ésszel	ész	NOUN	H	_	4	Háll	_	_
+3	nem	nem	ADV	P	_	4	P	_	_
+4	adom	ad	VERB	Á	_	0	Á	_	_
+5	ocsmány	ocsmány	ADJ	J	_	6	Jmin	_	_
+6	módon	mód	NOUN	H	_	4	Hmód	_	_
+7	a	a	DET	X	_	9	X	_	_
+8	szolga	szolga	NOUN	J	_	9	Jmin	_	_
+9	ostobát	ostoba	NOUN	T	_	4	T	_	_
+10	.	.	PUNCT	X	_	4	X	_	_
+
+1	Egy	egy	DET	X	_	2	X	_	_
+2	kicsit	kicsi	ADJ	T	_	3	T	_	_
+3	megfáztam	megfázik	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	vonaton	vonat	NOUN	H	_	3	Hhely	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	Alázatnál	alázat	NOUN	H	_	2	Hhas	_	_
+2	jobban	jobban	ADV	H	_	3	Hfm	_	_
+3	alázva	aláz	VERB	H	_	4	Hmód	_	_
+4	vizsgálom	vizsgál	VERB	Á	_	0	Á	_	_
+5	szívem	szív	NOUN	T	_	4	T	_	_
+6	,	,	PUNCT	X	_	5	X	_	_
+7	izmom	izom	NOUN	P	_	5	P	_	_
+8	,	,	PUNCT	X	_	7	X	_	_
+9	kedvem	kedv	NOUN	P	_	5	P	_	_
+10	.	.	PUNCT	X	_	9	X	_	_
+
+1	Édesanyám	édesanya	NOUN	A	_	5	A	_	_
+2	a	a	DET	X	_	4	X	_	_
+3	legjobb	jó	FF	J	_	4	Jmin	_	_
+4	barátnőm	barátnő	NOUN	P	_	5	P	_	_
+5	volt	van	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	ember	ember	NOUN	A	_	9	A	_	_
+3	inget	ing	NOUN	T	_	9	T	_	_
+4	,	,	PUNCT	X	_	3	X	_	_
+5	szeretőt	szerető	NOUN	P	_	9	P	_	_
+6	,	,	PUNCT	X	_	5	X	_	_
+7	hitet	hit	NOUN	P	_	9	P	_	_
+8	is	is	ADV	X	_	7	X	_	_
+9	válthat	vált	VERB	Á	_	0	Á	_	_
+10	.	.	PUNCT	X	_	9	X	_	_
+
+1	Csöngettek	csönget	VERB	Á	_	0	Á	_	_
+2	.	.	PUNCT	X	_	1	X	_	_
+
+1	Nyáron	nyár	NOUN	H	_	3	Hidő	_	_
+2	Görögországba	Görögország	NOUN	H	_	3	Hhely	_	_
+3	fogunk	fog	VERB	Á	_	0	Á	_	_
+4	utazni	utazik	VERB	P	_	3	P	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	barátjával	barát	NOUN	H	_	3	Heszk	_	_
+3	küldte	küld	VERB	Á	_	0	Á	_	_
+4	el	el	IK	P	_	3	P	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	levelet	levél	NOUN	T	_	3	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Hidegen	hideg	ADJ	H	_	2	Háll	_	_
+2	ette	et	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	levest	leves	NOUN	T	_	2	T	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	hajó	hajó	NOUN	A	_	3	A	_	_
+3	elsüllyedt	elsüllyed	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	tengerben	tenger	NOUN	H	_	3	Hhely	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Miért	miért	ADV|PRON	H	_	2	Hcél	_	_
+2	van	van	VERB	Á	_	0	Á	_	_
+3	tűz	tűz	NOUN	A	_	2	A	_	_
+4	?	?	PUNCT	X	_	3	X	_	_
+
+1	Szeretem	szeret	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	szépet	szép	ADJ	T	_	1	T	_	_
+4	.	.	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	barátom	barát	NOUN	A	_	4	A	_	_
+3	reggel	reggel	ADV	H	_	4	Hidő	_	_
+4	belázasodott	belázasodik	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Hét	hét	NUM	J	_	2	Jmenny	_	_
+2	szilvafa	szilvafa	NOUN	J	_	3	Jbirt	_	_
+3	árnyékában	árnyék	NOUN	H	_	4	Hhely	_	_
+4	szunnyadt	szunnyad	VERB	Á	_	0	Á	_	_
+5	lelkem	lélek	NOUN	A	_	4	A	_	_
+6	ezer	ezer	NUM	J	_	7	Jmenny	_	_
+7	évet	év	NOUN	T	_	4	T	_	_
+8	.	.	PUNCT	X	_	4	X	_	_
+
+1	S	s	KOT	X	_	5	X	_	_
+2	egy	egy	DET	P	_	3	P	_	_
+3	talpalatnyi	talpalatnyi	ADJ	J	_	4	Jmenny	_	_
+4	föld	föld	NOUN	A	_	5	A	_	_
+5	elég	elég	ADV	Á	_	0	Á	_	_
+6	nekem	én	NOUN|PRON	H	_	5	Hrész	_	_
+7	.	.	PUNCT	X	_	5	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	újságot	újság	NOUN	T	_	3	T	_	_
+3	olvasó	olvasó	NOUN	J	_	4	Jkij	_	_
+4	diák	diák	NOUN	A	_	6	A	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	barátom	barát	NOUN	Á	_	0	Á	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Tévedésből	tévedés	NOUN	H	_	4	Hok	_	_
+2	rossz	rossz	ADJ	J	_	3	Jmin	_	_
+3	helyre	hely	NOUN	H	_	4	Hhely	_	_
+4	küldte	küld	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	levelet	levél	NOUN	T	_	4	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Szabad	szabad	ADJ	P	_	4	P	_	_
+2	szerettem	szeret	VERB	Á	_	0	Á	_	_
+3	volna	van	VERB	P	_	2	P	_	_
+4	lenni	van	VERB	T	_	2	T	_	_
+5	mindig	mindig	ADV	H	_	2	Hidő	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	húgomat	húg	NOUN	T	_	5	T	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	bánat	bánat	NOUN	A	_	5	A	_	_
+5	eljegyezte	eljegyez	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Délre	dél	NOUN	H	_	2	Hidő	_	_
+2	jár	jár	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Fiatal	fiatal	ADJ	P	_	2	P	_	_
+2	voltam	van	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	El	el	IK	P	_	3	P	_	_
+2	akarta	akar	VERB	Á	_	0	Á	_	_
+3	nyelni	nyel	VERB	T	_	2	T	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	világot	világ	NOUN	T	_	3	T	_	_
+6	.	.	PUNCT	X	_	2	X	_	_
+
+1	Szeretem	szeret	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	6	X	_	_
+3	szép	szép	ADJ	J	_	6	Jmin	_	_
+4	,	,	PUNCT	X	_	1	X	_	_
+5	sima	sima	ADJ	J	_	6	Jmin	_	_
+6	köveket	kő	NOUN	T	_	1	T	_	_
+7	,	,	PUNCT	X	_	1	X	_	_
+8	nyulak	nyúl	NOUN	J	_	9	Jbirt	_	_
+9	szőrét	szőr	NOUN	T	_	1	T	_	_
+10	,	,	PUNCT	X	_	1	X	_	_
+11	a	a	DET	X	_	13	X	_	_
+12	selymes	selymes	ADJ	J	_	13	Jmin	_	_
+13	füveket	fű	NOUN	T	_	1	T	_	_
+14	.	.	PUNCT	X	_	1	X	_	_
+
+1	Nem	nem	ADV	P	_	2	P	_	_
+2	ítélem	ítél	VERB	Á	_	0	Á	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+4	csak	csak	ADV	X	_	5	X	_	_
+5	nézem	néz	VERB	P	_	2	P	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	világot	világ	NOUN	T	_	2	T	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Ne	ne	ADV	P	_	2	P	_	_
+2	tégy	tégy	NUM	Á	_	0	Á	_	_
+3	olyat	olyan	ADJ|PRON	T	_	2	Herdny	_	_
+4	,	,	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	szülők	szülő	NOUN	A	_	3	A	_	_
+3	gratuláltak	gratulál	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	fiataloknak	fiatal	NOUN	H	_	3	Hrész	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Borzasztóan	borzasztó	ADJ	H	_	2	Hfm	_	_
+2	olcsón	olcsó	ADJ	H	_	3	Hmód	_	_
+3	jutottam	jut	VERB	Á	_	0	Á	_	_
+4	hozzá	hozzá	IK	P	_	3	P	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Kati	Kati	NOUN	A	_	4	A	_	_
+2	mindig	mindig	ADV	H	_	4	Hidő	_	_
+3	részletre	részlet	NOUN	H	_	4	Hmód	_	_
+4	vásárol	vásárol	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	nagynéném	nagynéne	NOUN	A	_	4	A	_	_
+3	családostul	családostul	ADV	H	_	4	Htárs	_	_
+4	látogatott	látogat	VERB	Á	_	0	Á	_	_
+5	meg	meg	IK	P	_	4	P	_	_
+6	bennünket	mi	NOUN|PRON	T	_	4	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Sok	sok	NUM	J	_	2	Jmenny	_	_
+2	gyerek	gyerek	NOUN	A	_	3	A	_	_
+3	szeret	szeret	VERB	Á	_	0	Á	_	_
+4	hangosan	hangos	ADJ	H	_	5	Hmód	_	_
+5	tanulni	tanul	VERB	T	_	3	T	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	ballagó	ballag	VERB	J	_	3	Jmin	_	_
+3	diákok	diák	NOUN	A	_	5	A	_	_
+4	aggodalommal	aggodalom	NOUN	H	_	5	Háll	_	_
+5	néznek	néz	VERB	Á	_	0	Á	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	jövő	jövő	NOUN	H	_	5	Hhely	_	_
+8	elé	elé	NU	P	_	7	P	_	_
+9	.	.	PUNCT	X	_	5	X	_	_
+
+1	Ki	ki	NOUN|PRON	Á	_	0	Á	_	_
+2	ő	ő	NOUN|PRON	A	_	1	A	_	_
+3	?	?	PUNCT	X	_	2	X	_	_
+
+1	Szeszélyes	szeszélyes	ADJ	J	_	4	Jmin	_	_
+2	,	,	PUNCT	X	_	1	X	_	_
+3	bús	bús	ADJ	P	_	1	P	_	_
+4	ajándék	ajándék	NOUN	Á	_	0	Á	_	_
+5	e	e	NOUN|PRON	J	_	9	Jkij	_	_
+6	rímes	rímes	ADJ	J	_	9	Jmin	_	_
+7	,	,	PUNCT	X	_	6	X	_	_
+8	furcsa	furcsa	ADJ	P	_	6	P	_	_
+9	játék	játék	NOUN	A	_	4	A	_	_
+10	.	.	PUNCT	X	_	4	X	_	_
+
+1	Bármelyik	bármelyik	NOUN|PRON	J	_	2	Jkij	_	_
+2	példát	példa	NOUN	T	_	3	T	_	_
+3	megoldjuk	megold	VERB	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Csak	csak	ADV	X	_	2	X	_	_
+2	esténként	esténként	ADV	H	_	3	Hidő	_	_
+3	tudok	tud	VERB	Á	_	0	Á	_	_
+4	olvasni	olvas	VERB	T	_	3	T	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Unalomból	Unalomból	NOUN	H	_	2	Hok	_	_
+2	tette	tesz	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	kutyám	kutya	NOUN	A	_	3	A	_	_
+3	kergeti	kerget	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	macskám	macska	NOUN	T	_	3	T	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	fiatal	fiatal	ADJ	J	_	3	Jmin	_	_
+3	tanár	tanár	NOUN	A	_	5	A	_	_
+4	lelkesen	lelkes	ADJ	H	_	5	Hmód	_	_
+5	tanít	tanít	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Katinak	Kati	NOUN	J	_	4	Jbirt	_	_
+2	fájt	fáj	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	feje	fej	NOUN	A	_	2	A	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	mosástól	mosás	NOUN	H	_	4	Hok	_	_
+3	kicsit	kicsi	ADJ	H	_	4	Hfm	_	_
+4	meggörnyedt	meggörnyed	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	verset	vers	NOUN	T	_	3	Herdny	_	_
+3	író	ír	VERB	J	_	4	Jmin	_	_
+4	diákot	diák	NOUN	T	_	5	T	_	_
+5	megdicsérték	megdicsér	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	szülők	szülő	NOUN	A	_	3	A	_	_
+3	boldogok	boldog	ADJ	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Dózsa	Dózsa	NOUN	P	_	2	P	_	_
+2	György	György	NOUN	J	_	3	Jbirt	_	_
+3	unokája	unoka	NOUN	P	_	4	P	_	_
+4	vagyok	van	VERB	Á	_	0	Á	_	_
+5	én	én	NOUN|PRON	A	_	4	A	_	_
+6	,	,	PUNCT	X	_	4	X	_	_
+7	Népért	Népér	NOUN	H	_	8	Hok	_	_
+8	síró	sír	VERB	J	_	12	Jmin	_	_
+9	,	,	PUNCT	X	_	4	X	_	_
+10	bús	bús	ADJ	J	_	12	Jmin	_	_
+11	bocskoros	bocskoros	ADJ	J	_	12	Jmin	_	_
+12	nemes	nemes	ADJ	J	_	3	Jért	_	_
+13	.	.	PUNCT	X	_	4	X	_	_
+
+1	Tízéves	tízéves	ADJ	P	_	2	P	_	_
+2	múltam	múlik	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	dudva	dud	VERB	A	_	9	A	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	muhar	muhar	NOUN	P	_	2	P	_	_
+6	,	,	PUNCT	X	_	5	X	_	_
+7	a	a	DET	X	_	8	X	_	_
+8	gaz	gaz	NOUN	P	_	2	P	_	_
+9	lehúz	lehúz	VERB	Á	_	0	Á	_	_
+10	,	,	PUNCT	X	_	9	X	_	_
+11	altat	altat	VERB	P	_	9	P	_	_
+12	,	,	PUNCT	X	_	11	X	_	_
+13	befed	befed	VERB	P	_	9	P	_	_
+14	.	.	PUNCT	X	_	13	X	_	_
+
+1	Katinak	Kati	NOUN	H	_	4	Hrész	_	_
+2	új	új	ADJ	J	_	3	Jmin	_	_
+3	autója	autó	NOUN	A	_	4	A	_	_
+4	van	van	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Légy	van	VERB	Á	_	0	Á	_	_
+2	okos	okos	ADJ	P	_	1	P	_	_
+3	.	.	PUNCT	X	_	1	X	_	_
+
+1	Milyen	milyen	ADJ|PRON	J	_	2	Jmin	_	_
+2	ruhát	ruha	NOUN	T	_	3	T	_	_
+3	vegyek	vesz	VERB	Á	_	0	Á	_	_
+4	fel	fel	IK	P	_	3	P	_	_
+5	?	?	PUNCT	X	_	3	X	_	_
+
+1	és	és	KOT	X	_	3	X	_	_
+2	nem	nem	ADV	P	_	3	P	_	_
+3	beszélem	beszél	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	6	X	_	_
+5	te	te	NOUN|PRON	J	_	6	Jbirt	_	_
+6	nyelvedet	nyelv	NOUN	T	_	3	T	_	_
+7	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	fiúk	fiú	NOUN	A	_	4	A	_	_
+3	egymást	egymás	NOUN|PRON	T	_	4	T	_	_
+4	kergetik	kerget	VERB	Á	_	0	Á	_	_
+5	az	az	DET	X	_	6	X	_	_
+6	udvaron	udvar	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	4	X	_	_
+
+1	Már	már	ADV	X	_	2	X	_	_
+2	vénülő	vénülő	ADJ	J	_	3	Jmin	_	_
+3	kezemmel	kéz	NOUN	H	_	4	Heszk	_	_
+4	fogom	fog	VERB	Á	_	0	Á	_	_
+5	meg	meg	IK	P	_	4	P	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	kezedet	kéz	NOUN	T	_	4	T	_	_
+8	.	.	PUNCT	X	_	4	X	_	_
+
+1	Testem	test	NOUN	J	_	3	Jmin	_	_
+2	előtti	előtti	ADJ	P	_	1	P	_	_
+3	szél	szél	NOUN	A	_	10	A	_	_
+4	,	,	PUNCT	X	_	8	X	_	_
+5	testem	test	NOUN	J	_	7	Jmin	_	_
+6	utáni	utáni	ADJ	P	_	5	P	_	_
+7	nap	nap	NOUN	A	_	10	A	_	_
+8	sajdul	sajdul	VERB	Á	_	0	Á	_	_
+9	át	át	IK	P	_	8	P	_	_
+10	csontjaimon	csontjaim	NOUN	H	_	8	Hhely	_	_
+11	.	.	PUNCT	X	_	8	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	lányok	lány	NOUN	A	_	3	A	_	_
+3	okosak	okos	ADJ	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Nekem	én	NOUN|PRON	H	_	2	Hrész	_	_
+2	kell	kell	VERB	Á	_	0	Á	_	_
+3	megoldanom	megold	VERB	Á	_	2	Á	_	_
+4	ezt	ez	NOUN|PRON	T	_	3	T	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	problémát	probléma	NOUN	T	_	3	T	_	_
+7	.	.	PUNCT	X	_	7	X	_	_
+
+1	A	a	DET	X	_	7	X	_	_
+2	francia	francia	ADJ	J	_	3	Jmin	_	_
+3	partoknál	partok	NOUN	H	_	5	Hhely	_	_
+4	tavaly	tavaly	ADV	H	_	5	Hidő	_	_
+5	elsüllyedt	elsüllyed	VERB	J	_	7	Jmin	_	_
+6	olajszállító	olajszállító	ADJ	J	_	7	Jmin	_	_
+7	hajó	hajó	NOUN	J	_	8	Jbirt	_	_
+8	szerencsétlenségét	szerencsétlenség	NOUN	T	_	12	Herdny	_	_
+9	a	a	DET	X	_	11	X	_	_
+10	kormányszerkezet	kormányszerkezet	NOUN	J	_	11	Jbirt	_	_
+11	elromlása	elromlás	NOUN	A	_	12	A	_	_
+12	okozta	okoz	VERB	Á	_	0	Á	_	_
+13	.	.	PUNCT	X	_	12	X	_	_
+
+1	Nem	nem	ADV	P	_	2	P	_	_
+2	akarok	akar	VERB	Á	_	0	Á	_	_
+3	húszéves	húszéves	ADJ	P	_	4	P	_	_
+4	elmúlni	elmúlik	VERB	T	_	2	T	_	_
+5	.	.	PUNCT	X	_	2	X	_	_
+
+1	Meg	meg	IK	P	_	3	P	_	_
+2	akarlak	akar	VERB	Á	_	0	Á	_	_
+3	tartani	tart	VERB	T	_	2	T	_	_
+4	téged	te	NOUN|PRON	T	_	3	T	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Hidegen	hideg	ADJ	H	_	2	Hmód	_	_
+2	üdvözölte	üdvözöl	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	barátját	barát	NOUN	T	_	2	T	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Sok	sok	NUM	Á	_	0	Á	_	_
+2	az	az	DET	X	_	3	X	_	_
+3	eszkimó	eszkimó	NOUN	A	_	1	A	_	_
+4	,	,	PUNCT	X	_	3	X	_	_
+
+1	Méneseknek	Ménesek	NOUN	J	_	3	Jbirt	_	_
+2	nyargaló	nyargal	VERB	J	_	3	Jmin	_	_
+3	futása	futás	NOUN	A	_	4	A	_	_
+4	zúg	zúg	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	szélben	szél	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	4	X	_	_
+
+1	Jó	jó	ADJ	P	_	2	P	_	_
+2	lenne	van	VERB	Á	_	0	Á	_	_
+3	sokáig	sokáig	ADV	H	_	2	Hidő	_	_
+4	diáknak	diák	NOUN	H	_	2	Háld	_	_
+5	maradni	marad	VERB	A	_	2	A	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	útszél	útszél	NOUN	A	_	4	A	_	_
+3	csupa	csupa	ADV	H	_	4	Hfm	_	_
+4	pitypang	pitypang	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Miért	miért	ADV|PRON	H	_	2	Hok	_	_
+2	sírsz	sír	VERB	Á	_	0	Á	_	_
+3	?	?	PUNCT	X	_	2	X	_	_
+
+1	Elolvastam	elolvas	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	barátnőm	barátnő	NOUN	J	_	4	Jbirt	_	_
+4	levelét	levél	NOUN	T	_	1	T	_	_
+5	.	.	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	fiatalok	fiatal	NOUN	A	_	3	A	_	_
+3	beköltöztek	beköltözik	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	7	X	_	_
+5	nagyapjuk	nagyapa	NOUN	A	_	6	A	_	_
+6	építette	épít	VERB	J	_	7	Jmin	_	_
+7	házba	ház	NOUN	H	_	3	Hhely	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Minden	minden	NOUN|PRON	J	_	2	Jmenny	_	_
+2	embernek	ember	NOUN	H	_	3	Hrész	_	_
+3	van	van	VERB	Á	_	0	Á	_	_
+4	valami	valami	NOUN|PRON	J	_	5	Jmin	_	_
+5	titka	titok	NOUN	A	_	3	A	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	Mindenki	mindenki	NOUN|PRON	A	_	5	A	_	_
+2	a	a	DET	X	_	4	X	_	_
+3	maga	maga	NOUN|PRON	J	_	4	Jbirt	_	_
+4	lovát	ló	NOUN	T	_	5	T	_	_
+5	dicséri	dicsér	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Egyszerre	egyszerre	ADV	H	_	3	Hidő	_	_
+2	mégis	mégis	ADV	X	_	3	X	_	_
+3	rezzen	rez	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	táj	táj	NOUN	A	_	3	A	_	_
+6	:	:	PUNCT	X	_	3	X	_	_
+
+1	Én	én	NOUN|PRON	A	_	4	A	_	_
+2	önmagamat	önmaga	NOUN|PRON	T	_	4	T	_	_
+3	önmagammal	önmaga	NOUN|PRON	H	_	4	Heszk	_	_
+4	mérem	mérem	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	tolakodó	tolakszik	VERB	J	_	3	Jmin	_	_
+3	Gráciát	Grácia	NOUN	T	_	4	T	_	_
+4	ellöktem	ellök	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Azt	az	NOUN|PRON	T	_	2	T	_	_
+2	szeretném	szeret	VERB	Á	_	0	Á	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+
+1	Fekete	fekete	ADJ	J	_	2	Jmin	_	_
+2	országot	ország	NOUN	T	_	3	Herdny	_	_
+3	álmodtam	álmodik	VERB	Á	_	0	Á	_	_
+4	én	én	NOUN|PRON	A	_	3	A	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Erdőtűz	Erdőtűz	NOUN	J	_	2	Jbirt	_	_
+2	idején	idő	NOUN	H	_	4	Hidő	_	_
+3	nem	nem	ADV	P	_	4	P	_	_
+4	kíméli	kímél	VERB	Á	_	0	Á	_	_
+5	magát	maga	NOUN|PRON	T	_	4	T	_	_
+6	az	az	DET	X	_	7	X	_	_
+7	ember	ember	NOUN	A	_	4	A	_	_
+8	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	nagymama	nagymama	NOUN	A	_	3	A	_	_
+3	nézi	néz	VERB	Á	_	0	Á	_	_
+4	az	az	DET	X	_	5	X	_	_
+5	unokák	unoka	NOUN	J	_	6	Jbirt	_	_
+6	fényképeit	fénykép	NOUN	T	_	3	T	_	_
+7	.	.	PUNCT	X	_	3	X	_	_
+
+1	Csak	csak	ADV	X	_	4	X	_	_
+2	röviden	rövid	ADJ	H	_	3	Hmód	_	_
+3	tudott	tud	VERB	Á	_	0	Á	_	_
+4	válaszolni	válaszol	VERB	T	_	3	T	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	kérdésre	kérdés	NOUN	H	_	4	Háld	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Fiatal	fiatal	ADJ	P	_	2	P	_	_
+2	maradt	marad	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	áldozatra	áldozat	NOUN	H	_	5	Háld	_	_
+3	háttal	hát	NOUN	H	_	4	Háld	_	_
+4	fekve	fekve	ADV	H	_	5	Háll	_	_
+5	találtak	talál	VERB	Á	_	0	Á	_	_
+6	rá	ő	NOUN|PRON	P	_	5	P	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Kékek	kék	ADJ	Á	_	0	Á	_	_
+2	az	az	DET	X	_	3	X	_	_
+3	alkonyi	alkonyi	ADJ	J	_	4	Jmin	_	_
+4	dombok	domb	NOUN	A	_	1	A	_	_
+5	,	,	PUNCT	X	_	4	X	_	_
+
+1	Szilágyi	Szilágyi	NOUN	P	_	2	P	_	_
+2	Erzsébet	Erzsébet	NOUN	A	_	4	A	_	_
+3	levelét	levél	NOUN	T	_	4	Herdny	_	_
+4	megírta	megír	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Az	az	NOUN|PRON	X	_	2	X	_	_
+2	este	este	ADV	H	_	3	Hidő	_	_
+3	szerettem	szeret	VERB	Á	_	0	Á	_	_
+4	volna	van	VERB	P	_	3	P	_	_
+5	moziba	mozi	NOUN	H	_	3	Hhely	_	_
+6	menni	megy	VERB	T	_	3	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Terítve	Terítve	NOUN	P	_	2	P	_	_
+2	van	van	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	gyerek	gyerek	NOUN	A	_	4	A	_	_
+3	szótlanul	szótlan	ADJ	H	_	4	Háll	_	_
+4	ült	ül	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	felnőttek	felnőtt	NOUN	H	_	4	Hhely	_	_
+7	között	között	NU	P	_	6	P	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	amit	ami	NOUN|PRON	T	_	2	T	_	_
+2	megbánnál	megbán	NOUN	Á	_	0	Á	_	_
+3	!	!	PUNCT	X	_	2	X	_	_
+
+1	Havazik	havazik	VERB	Á	_	0	Á	_	_
+2	.	.	PUNCT	X	_	1	X	_	_
+
+1	Tudnál	tud	VERB	Á	_	0	Á	_	_
+2	-	-	PUNCT	X	_	1	X	_	_
+3	e	e	NOUN|PRON	P	_	1	P	_	_
+4	engem	én	NOUN|PRON	T	_	7	T	_	_
+5	új	új	ADJ	J	_	6	Jmin	_	_
+6	világra	világ	NOUN	H	_	7	Háld	_	_
+7	hozni	hoz	VERB	T	_	1	T	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Kertész	kertész	NOUN	P	_	2	P	_	_
+2	leszek	lesz	VERB	Á	_	0	Á	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+
+1	Edd	Ed	VERB	Á	_	0	Á	_	_
+2	meg	meg	IK	P	_	1	P	_	_
+3	nekem	én	NOUN|PRON	H	_	1	Háld	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	levest	leves	NOUN	T	_	1	T	_	_
+6	!	!	PUNCT	X	_	5	X	_	_
+
+1	Édesanyám	édesanya	NOUN	A	_	4	A	_	_
+2	titeket	ti	NOUN|PRON	T	_	4	T	_	_
+3	is	is	ADV	X	_	2	X	_	_
+4	vár	vár	VERB	Á	_	0	Á	_	_
+5	vacsorára	vacsora	NOUN	H	_	4	Hcél	_	_
+6	.	.	PUNCT	X	_	4	X	_	_
+
+1	Vajda	vajda	NOUN	P	_	2	P	_	_
+2	János	János	NOUN	A	_	12	A	_	_
+3	,	,	PUNCT	X	_	12	X	_	_
+4	az	az	DET	X	_	9	X	_	_
+5	első	első	ADJ	J	_	9	Jkij	_	_
+6	negyvennyolc	negyvennyolc	NUM	J	_	9	Jmin	_	_
+7	utáni	utáni	ADJ	P	_	6	P	_	_
+8	modern	modern	ADJ	J	_	9	Jmin	_	_
+9	költő	költő	NOUN	J	_	2	Jért	_	_
+10	,	,	PUNCT	X	_	12	X	_	_
+11	1897-ben	1897	NUM|DIGIT	H	_	12	Hidő	_	_
+12	halt	hal	VERB	Á	_	0	Á	_	_
+13	meg	meg	IK	P	_	12	P	_	_
+14	.	.	PUNCT	X	_	12	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	Tiszát	Tiszát	NOUN	T	_	4	T	_	_
+3	töltésekkel	töltések	NOUN	H	_	4	Háld	_	_
+4	vették	vesz	VERB	Á	_	0	Á	_	_
+5	körül	körül	IK	P	_	4	P	_	_
+6	.	.	PUNCT	X	_	4	X	_	_
+
+1	Ezüst	ezüst	NOUN	J	_	2	Jmin	_	_
+2	sötétség	sötétség	NOUN	J	_	3	Jbirt	_	_
+3	némasága	némaság	NOUN	A	_	5	A	_	_
+4	holdat	hold	NOUN	T	_	5	T	_	_
+5	lakatol	lakatol	VERB	Á	_	0	Á	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	világra	világ	NOUN	H	_	5	Hhely	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	ruhástul	ruhástul	ADV	H	_	4	Háll	_	_
+3	vízbe	víz	NOUN	H	_	4	Hhely	_	_
+4	ugrónak	ugró	NOUN	H	_	6	Hrész	_	_
+5	segítségre	segítség	NOUN	H	_	6	Háld	_	_
+6	volt	van	VERB	Á	_	0	Á	_	_
+7	szüksége	szükség	NOUN	A	_	6	A	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	szomszéd	szomszéd	NOUN	J	_	3	Jmin	_	_
+3	udvarban	udvar	NOUN	H	_	5	Hhely	_	_
+4	sok	sok	NUM	P	_	5	P	_	_
+5	volt	van	VERB	Á	_	0	Á	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	virág	virág	NOUN	A	_	5	A	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	színész	színész	NOUN	A	_	4	A	_	_
+3	szerepet	szerep	NOUN	T	_	4	T	_	_
+4	tanul	tanul	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	lány	lány	NOUN	A	_	4	A	_	_
+3	magas	magas	ADJ	P	_	4	P	_	_
+4	volt	van	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Játszótársam	Játszótársam	NOUN	P	_	6	P	_	_
+2	…	…	PUNCT	X	_	3	X	_	_
+3	akarsz	akar	VERB	Á	_	0	Á	_	_
+4	-	-	PUNCT	X	_	3	X	_	_
+5	e	e	NOUN|PRON	P	_	3	P	_	_
+6	lenni	van	VERB	T	_	3	T	_	_
+7	?	?	PUNCT	X	_	3	X	_	_
+
+1	Kiflit	kifli	NOUN	T	_	4	T	_	_
+2	és	és	KOT	X	_	3	X	_	_
+3	zsemlét	zsemle	NOUN	P	_	1	P	_	_
+4	vettem	vesz	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	boltban	bolt	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	4	X	_	_
+
+1	S	s	KOT	X	_	3	X	_	_
+2	elég	elég	ADV	P	_	3	P	_	_
+3	lett	lesz	VERB	Á	_	0	Á	_	_
+4	volna	van	VERB	P	_	3	P	_	_
+5	ujonnan	ujonnan	ADV|PRON	H	_	3	Hidő	_	_
+6	nekem	én	NOUN|PRON	H	_	3	Hrész	_	_
+7	csak	csak	ADV	X	_	8	X	_	_
+8	legeltetni	legeltet	VERB	A	_	3	A	_	_
+9	,	,	PUNCT	X	_	3	X	_	_
+10	itatni	itat	VERB	P	_	8	P	_	_
+11	szemem	szem	NOUN	T	_	8	T	_	_
+12	.	.	PUNCT	X	_	3	X	_	_
+
+1	Szüleim	szülő	NOUN	A	_	4	A	_	_
+2	húsz	húsz	NUM	J	_	3	Jmenny	_	_
+3	évet	év	NOUN	T	_	4	T	_	_
+4	éltek	él	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	fővárosban	főváros	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	lány	lány	NOUN	A	_	3	A	_	_
+3	magas	magas	ADJ	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Engem	én	NOUN|PRON	T	_	2	T	_	_
+2	hívnak	hív	VERB	Á	_	0	Á	_	_
+3	Fábián	Fábián	NOUN	P	_	4	P	_	_
+4	Pistának	Pista	NOUN	H	_	2	Háld	_	_
+5	.	.	PUNCT	X	_	2	X	_	_
+
+1	ha	ha	KOT	X	_	2	X	_	_
+2	belépünk	belép	VERB	Á	_	0	Á	_	_
+3	valahová	valahová	ADV|PRON	H	_	2	Hhely	_	_
+4	.	.	PUNCT	X	_	2	X	_	_
+
+1	Olyat	olyan	ADJ|PRON	T	_	2	T	_	_
+2	szeretnék	szeret	VERB	Á	_	0	Á	_	_
+3	én	én	NOUN|PRON	A	_	2	A	_	_
+4	is	is	ADV	X	_	3	X	_	_
+5	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	tanár	tanár	NOUN	A	_	3	A	_	_
+3	beszél	beszél	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	tábla	tábla	NOUN	H	_	3	Hhely	_	_
+6	előtt	előtt	NU	P	_	5	P	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Önszántából	önszántából	ADV|PRON	H	_	2	Hmód	_	_
+2	ment	megy	VERB	Á	_	0	Á	_	_
+3	hozzá	hozzá	IK	H	_	2	Háld	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Borzasztó	borzasztó	ADJ	H	_	2	Hfm	_	_
+2	olcsón	olcsó	ADJ	H	_	3	Hmód	_	_
+3	jutottam	jut	VERB	Á	_	0	Á	_	_
+4	hozzá	hozzá	IK	P	_	3	P	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Engem	én	NOUN|PRON	T	_	3	T	_	_
+2	is	is	ADV	X	_	1	X	_	_
+3	meghívtak	meghív	VERB	Á	_	0	Á	_	_
+4	az	az	DET	X	_	5	X	_	_
+5	esküvőre	esküvő	NOUN	H	_	3	Hcél	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	Egyre	egyre	ADV	H	_	2	Hfm	_	_
+2	jobban	jobban	ADV	H	_	3	Hmód	_	_
+3	kezdem	kezd	VERB	Á	_	0	Á	_	_
+4	szeretni	szeret	VERB	T	_	3	T	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	gyerekeket	gyerek	NOUN	T	_	4	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	gyerekek	gyerek	NOUN	A	_	6	A	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	szakkörön	szakkör	NOUN	H	_	6	Hhely	_	_
+5	repülőgépet	repülőgép	NOUN	T	_	6	Herdny	_	_
+6	építettek	épít	VERB	Á	_	0	Á	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	Úristen	úristen	NOUN	A	_	3	A	_	_
+3	őriz	őriz	VERB	Á	_	0	Á	_	_
+4	engem	én	NOUN|PRON	T	_	3	T	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Olvasd	olvas	VERB	Á	_	0	Á	_	_
+2	el	el	IK	P	_	1	P	_	_
+3	ezt	ez	NOUN|PRON	J	_	5	Jkij	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	könyvet	könyv	NOUN	T	_	1	T	_	_
+6	!	!	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	barátjával	barát	NOUN	H	_	3	Htárs	_	_
+3	sétált	sétál	VERB	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	_	X	_	_
+2	fiúnak	fiú	NOUN	J	_	4	Jbirt	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	könyve	könyv	NOUN	A	_	5	A	_	_
+5	veszett	vesz	VERB	Á	_	0	Á	_	_
+6	el	el	IK	P	_	5	P	_	_
+7	,	,	PUNCT	X	_	6	X	_	_
+
+1	Nem	nem	ADV	X	_	2	X	_	_
+2	lehetek	van	VERB	Á	_	0	Á	_	_
+3	én	én	NOUN|PRON	A	_	2	A	_	_
+4	már	már	ADV	H	_	2	Hidő	_	_
+5	soha	soha	ADV	H	_	2	Hidő	_	_
+6	nyugodt	nyugodt	ADJ	Á	_	0	Á	_	_
+7	és	és	KOT	X	_	8	X	_	_
+8	elégedett	elégedett	ADJ	P	_	6	P	_	_
+9	?	?	PUNCT	X	_	8	X	_	_
+
+1	Nekem	én	NOUN|PRON	H	_	3	Hrész	_	_
+2	sok	sok	NUM	J	_	3	Jmenny	_	_
+3	könyvem	könyv	NOUN	A	_	4	A	_	_
+4	van	van	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	hagymával	hagyma	NOUN	H	_	4	Htárs	_	_
+3	együtt	együtt	NU	P	_	2	P	_	_
+4	vetette	vet	VERB	Á	_	0	Á	_	_
+5	el	el	IK	P	_	4	P	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	borsót	borsó	NOUN	T	_	4	T	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Kitántorgott	Kitántorog	VERB	Á	_	0	Á	_	_
+2	Amerikába	Amerika	NOUN	H	_	1	Hhely	_	_
+3	másfél	másfél	NUM	P	_	4	P	_	_
+4	millió	millió	NUM	J	_	5	Jmenny	_	_
+5	emberünk	ember	NOUN	A	_	1	A	_	_
+6	.	.	PUNCT	X	_	1	X	_	_
+
+1	hármat	három	NUM	T	_	2	T	_	_
+2	fütyül	fütyül	VERB	Á	_	0	Á	_	_
+3	egy	egy	DET	X	_	5	X	_	_
+4	kis	kis	ADJ	J	_	5	Jmin	_	_
+5	madár	madár	NOUN	A	_	2	A	_	_
+6	.	.	PUNCT	X	_	2	X	_	_
+
+1	S	s	KOT	X	_	10	X	_	_
+2	te	te	NOUN|PRON	A	_	10	A	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	Mindenség	Mindenség	NOUN	J	_	7	Jbirt	_	_
+6	summás	summás	NOUN	J	_	7	Jmin	_	_
+7	legénye	legény	NOUN	J	_	2	Jért	_	_
+8	részt	rész	NOUN	T	_	10	T	_	_
+9	se	se	ADV	P	_	10	P	_	_
+10	kaptál	kaptál	VERB	Á	_	0	Á	_	_
+11	.	.	PUNCT	X	_	10	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	delfin	delfin	NOUN	A	_	3	A	_	_
+3	emlős	emlős	NOUN	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Látom	lát	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	baj	baj	NOUN	J	_	4	Jbirt	_	_
+4	nagyságát	nagyság	NOUN	T	_	1	T	_	_
+5	.	.	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	lány	lány	NOUN	A	_	3	A	_	_
+3	futott	fut	VERB	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Mindenki	mindenki	NOUN|PRON	A	_	2	A	_	_
+2	megérkezett	megérkezik	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Holdfény	holdfény	NOUN	H	_	3	Hhely	_	_
+2	alatt	alatt	NU	P	_	1	P	_	_
+3	járom	járom	VERB	Á	_	0	Á	_	_
+4	az	az	DET	X	_	5	X	_	_
+5	erdőt	erdő	NOUN	T	_	3	T	_	_
+6	.	.	PUNCT	X	_	3	X	_	_
+
+1	Roskad	roskad	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	4	X	_	_
+3	kásás	kásás	ADJ	J	_	4	Jmin	_	_
+4	hó	hó	NOUN	A	_	1	A	_	_
+5	,	,	PUNCT	X	_	4	X	_	_
+
+1	Megírtam	megír	VERB	Á	_	0	Á	_	_
+2	holnapra	holnap	NOUN	H	_	1	Hidő	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	fogalmazást	fogalmazás	NOUN	T	_	1	Herdny	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Nem	nem	ADV	P	_	2	P	_	_
+2	tudtam	tud	VERB	Á	_	0	Á	_	_
+3	én	én	NOUN|PRON	A	_	2	A	_	_
+4	dalolni	dalol	VERB	T	_	2	T	_	_
+5	nektek	ti	NOUN|PRON	H	_	4	Hrész	_	_
+6	az	az	NOUN|PRON	X	_	7	X	_	_
+7	újról	új	ADJ	H	_	4	Háld	_	_
+8	.	.	PUNCT	X	_	2	X	_	_
+
+1	Köszönjünk	köszön	VERB	Á	_	0	Á	_	_
+2	illendően	illendő	ADJ	H	_	1	Hmód	_	_
+3	,	,	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	turisták	turista	NOUN	A	_	4	A	_	_
+3	vidáman	vidám	ADJ	H	_	4	Háll	_	_
+4	nézték	néz	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	kiállítást	kiállítás	NOUN	T	_	4	T	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Mit	mi	NOUN|PRON	T	_	2	T	_	_
+2	keresel	keres	NOUN	Á	_	0	Á	_	_
+3	?	?	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	Duna	Duna	NOUN	A	_	4	A	_	_
+3	csak	csak	ADV	X	_	4	X	_	_
+4	folyt	folyik	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	nyelvtanórák	nyelvtanóra	NOUN	A	_	3	A	_	_
+3	izgalmasak	izgalmas	ADJ	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Kati	Kati	NOUN	A	_	4	A	_	_
+2	betegségéből	betegség	NOUN	H	_	4	Háld	_	_
+3	hamar	hamar	ADV	H	_	4	Hmód	_	_
+4	felgyógyult	felgyógyul	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	S	s	KOT	X	_	5	X	_	_
+2	e	e	NOUN|PRON	J	_	3	Jkij	_	_
+3	szőkeségben	szőkeség	NOUN	H	_	5	Háld	_	_
+4	újra	újra	ADV	H	_	5	Hidő	_	_
+5	érzem	érzik	VERB	Á	_	0	Á	_	_
+6	őt	ő	NOUN|PRON	T	_	5	T	_	_
+7	.	.	PUNCT	X	_	5	X	_	_
+
+1	Járom	jár	VERB	Á	_	0	Á	_	_
+2	az	az	DET	X	_	3	X	_	_
+3	utam	út	NOUN	T	_	1	T	_	_
+4	.	.	PUNCT	X	_	1	X	_	_
+
+1	Dobbal	dob	NOUN	H	_	3	Heszk	_	_
+2	nem	nem	ADV	P	_	3	P	_	_
+3	lehet	van	VERB	Á	_	0	Á	_	_
+4	verebet	vereb	NOUN	T	_	3	T	_	_
+5	fogni	fog	VERB	P	_	3	P	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Adjon	ad	VERB	Á	_	0	Á	_	_
+2	az	az	DET	X	_	3	X	_	_
+3	isten	isten	NOUN	A	_	1	A	_	_
+4	szerencsét	szerencse	NOUN	T	_	1	T	_	_
+5	,	,	PUNCT	X	_	4	X	_	_
+6	szerelmet	szerelem	NOUN	P	_	4	P	_	_
+7	,	,	PUNCT	X	_	6	X	_	_
+8	forró	forró	ADJ	J	_	9	Jmin	_	_
+9	kemencét	kemence	NOUN	P	_	4	P	_	_
+10	.	.	PUNCT	X	_	9	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	táncosok	táncos	NOUN	A	_	4	A	_	_
+3	sikerrel	siker	NOUN	H	_	4	Hmód	_	_
+4	szerepeltek	szerepel	VERB	Á	_	0	Á	_	_
+5	a	a	DET	X	_	6	X	_	_
+6	versenyen	verseny	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	4	X	_	_
+
+1	Esteledik	esteledik	VERB	Á	_	0	Á	_	_
+2	.	.	PUNCT	X	_	1	X	_	_
+
+1	Éhe	Éhe	NOUN	A	_	12	A	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	kenyérnek	kenyér	NOUN	J	_	1	Jbirt	_	_
+4	,	,	PUNCT	X	_	12	X	_	_
+5	éhe	éh	NOUN	A	_	12	A	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	Szónak	szó	NOUN	J	_	5	Jbirt	_	_
+8	,	,	PUNCT	X	_	12	X	_	_
+9	éhe	éh	NOUN	A	_	12	A	_	_
+10	a	a	DET	X	_	11	X	_	_
+11	Szépnek	szép	ADJ	J	_	9	Jbirt	_	_
+12	hajt	hajt	VERB	Á	_	0	Á	_	_
+13	titeket	ti	NOUN|PRON	T	_	12	T	_	_
+14	.	.	PUNCT	X	_	12	X	_	_
+
+1	Az	az	DET	X	_	2	X	_	_
+2	osztállyal	osztály	NOUN	H	_	4	Htárs	_	_
+3	jó	jó	ADJ	Á	_	0	Á	_	_
+4	kirándulni	kirándul	VERB	A	_	3	A	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Kakuk	Kakuk	NOUN	P	_	2	P	_	_
+2	Marcinak	Marcinak	NOUN	J	_	3	Jbirt	_	_
+3	apja	apa	NOUN	A	_	8	A	_	_
+4	is	is	ADV	X	_	3	X	_	_
+5	,	,	PUNCT	X	_	4	X	_	_
+6	anyja	anya	NOUN	P	_	3	P	_	_
+7	is	is	ADV	X	_	6	X	_	_
+8	ivott	iszik	VERB	Á	_	0	Á	_	_
+9	.	.	PUNCT	X	_	8	X	_	_
+
+1	Tréfából	Tréfából	NOUN	H	_	2	Hcél	_	_
+2	mondta	mond	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Harminchat	harminchat	NUM	J	_	2	Jmenny	_	_
+2	fokos	fokos	ADJ	J	_	3	Jmin	_	_
+3	lázban	láz	NOUN	H	_	4	Háll	_	_
+4	égek	ég	NOUN	Á	_	0	Á	_	_
+5	mindig	mindig	ADV	H	_	4	Hidő	_	_
+6	.	.	PUNCT	X	_	4	X	_	_
+
+1	de	de	KOT	X	_	3	X	_	_
+2	nem	nem	ADV	P	_	3	P	_	_
+3	bírhat	bír	VERB	Á	_	0	Á	_	_
+4	közben	közben	ADV	H	_	3	Hidő	_	_
+5	csigát	csiga	NOUN	T	_	7	T	_	_
+6	is	is	ADV	X	_	5	X	_	_
+7	pörgetni	pörget	VERB	T	_	3	T	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Valaki	valaki	NOUN|PRON	A	_	2	A	_	_
+2	keresett	keres	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Ki	ki	IK	P	_	4	P	_	_
+2	és	és	KOT	X	_	3	X	_	_
+3	mi	mi	NOUN|PRON	P	_	4	P	_	_
+4	vagy	van	VERB	Á	_	0	Á	_	_
+5	te	te	NOUN|PRON	A	_	4	A	_	_
+6	?	?	PUNCT	X	_	5	X	_	_
+
+1	nekem	én	NOUN|PRON	H	_	2	Hrész	_	_
+2	add	ad	VERB	Á	_	0	Á	_	_
+3	meg	meg	IK	P	_	2	P	_	_
+4	boldogabb	boldog	ADJ	J	_	5	Jmin	_	_
+5	énekem	ének	NOUN	T	_	2	Herdny	_	_
+6	!	!	PUNCT	X	_	2	X	_	_
+
+1	Nem	nem	ADV	P	_	2	P	_	_
+2	értem	ért	VERB	Á	_	0	Á	_	_
+3	én	én	NOUN|PRON	A	_	2	A	_	_
+4	az	az	DET	X	_	6	X	_	_
+5	emberi	emberi	ADJ	J	_	6	Jmin	_	_
+6	beszédet	beszéd	NOUN	T	_	2	T	_	_
+7	,	,	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	barátnőm	barátnő	NOUN	A	_	4	A	_	_
+3	pontosan	pontos	ADJ	H	_	4	Hmód	_	_
+4	érkezett	érkezik	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Új	új	ADJ	J	_	2	Jmin	_	_
+2	rajzlapját	rajzlap	NOUN	T	_	3	Herdny	_	_
+3	kifeszíti	kifeszít	VERB	Á	_	0	Á	_	_
+4	az	az	DET	X	_	5	X	_	_
+5	égen	ég	NOUN	H	_	3	Hhely	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	hajnal	hajnal	NOUN	A	_	3	A	_	_
+8	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	nagymama	nagymama	NOUN	A	_	3	A	_	_
+3	horgol	horgol	VERB	Á	_	0	Á	_	_
+4	és	és	KOT	X	_	5	X	_	_
+5	mesél	mesél	VERB	P	_	3	P	_	_
+6	egyszerre	egyszerre	ADV	H	_	5	Hidő	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Én	én	NOUN|PRON	A	_	5	A	_	_
+2	nem	nem	ADV	P	_	4	P	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	győztest	győztes	NOUN	T	_	5	T	_	_
+5	énekelem	énekel	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	(	(	PUNCT	X	_	3	X	_	_
+2	ha	ha	KOT	X	_	3	X	_	_
+3	magyar	magyar	ADJ	Á	_	0	Á	_	_
+4	)	)	PUNCT	X	_	3	X	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Apa	apa	NOUN	A	_	5	A	_	_
+2	és	és	KOT	X	_	3	X	_	_
+3	fia	fiú	NOUN	P	_	1	P	_	_
+4	termetre	termet	NOUN	H	_	5	Htek	_	_
+5	hasonlók	hasonló	ADJ	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Vannak	van	VERB	Á	_	0	Á	_	_
+2	még	még	ADV	H	_	1	Hidő	_	_
+3	hibák	hiba	NOUN	A	_	1	A	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	szomszéd	szomszéd	NOUN	J	_	3	Jkij	_	_
+3	présházban	présház	NOUN	H	_	8	Hhely	_	_
+4	minden	minden	NOUN|PRON	J	_	5	Jkij	_	_
+5	nyáron	nyár	NOUN	H	_	8	Hidő	_	_
+6	egy	egy	DET	X	_	7	X	_	_
+7	festő	festő	NOUN	A	_	8	A	_	_
+8	lakott	lakik	VERB	Á	_	0	Á	_	_
+9	.	.	PUNCT	X	_	8	X	_	_
+
+1	Meg	meg	IK	P	_	3	P	_	_
+2	kell	kell	VERB	Á	_	3	Á	_	_
+3	tanuljam	tanul	VERB	Á	_	0	Á	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	verset	vers	NOUN	T	_	3	T	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	szomszéd	szomszéd	NOUN	J	_	3	Jmin	_	_
+3	udvarban	udvar	NOUN	H	_	6	Hhely	_	_
+4	sok	sok	NUM	J	_	5	Jmenny	_	_
+5	virág	virág	NOUN	A	_	6	A	_	_
+6	volt	van	VERB	Á	_	0	Á	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Kinek	ki	NOUN|PRON	J	_	3	Jbirt	_	_
+2	a	a	DET	X	_	3	X	_	_
+3	feladata	feladat	NOUN	Á	_	0	Á	_	_
+4	ez	ez	NOUN|PRON	A	_	3	A	_	_
+5	?	?	PUNCT	X	_	3	X	_	_
+
+1	Várom	vár	VERB	Á	_	0	Á	_	_
+2	Pétert	Péter	NOUN	T	_	1	T	_	_
+3	,	,	PUNCT	X	_	1	X	_	_
+4	a	a	DET	X	_	5	X	_	_
+5	barátomat	barát	NOUN	J	_	2	Jért	_	_
+6	.	.	PUNCT	X	_	1	X	_	_
+
+1	Téged	te	NOUN|PRON	T	_	2	T	_	_
+2	keresnek	keres	VERB	Á	_	0	Á	_	_
+3	szemeim	szem	NOUN	A	_	2	A	_	_
+4	.	.	PUNCT	X	_	2	X	_	_
+
+1	elülnek	elül	VERB	Á	_	0	Á	_	_
+2	a	a	DET	X	_	4	X	_	_
+3	szürke	szürke	ADJ	J	_	4	Jmin	_	_
+4	galambok	galamb	NOUN	A	_	1	A	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Vigyázzunk	vigyáz	VERB	Á	_	0	Á	_	_
+2	az	az	DET	X	_	3	X	_	_
+3	egészségünkre	egészségünk	NOUN	H	_	1	Háld	_	_
+4	!	!	PUNCT	X	_	1	X	_	_
+
+1	Szeretnék	szeret	VERB	Á	_	0	Á	_	_
+2	tanár	tanár	NOUN	P	_	3	P	_	_
+3	lenni	van	VERB	T	_	1	T	_	_
+4	és	és	KOT	X	_	5	X	_	_
+5	maradni	marad	VERB	P	_	3	P	_	_
+6	.	.	PUNCT	X	_	1	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	harmincas	harmincas	ADJ	J	_	3	Jkij	_	_
+3	évek	év	NOUN	J	_	4	Jbirt	_	_
+4	elején	eleje	NOUN	H	_	9	Hidő	_	_
+5	már	már	ADV	X	_	9	X	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	korszak	korszak	NOUN	J	_	9	Jbirt	_	_
+8	legtekintélyesebb	legtekintélyesebb	FF	J	_	9	Jkij	_	_
+9	írója	író	NOUN	Á	_	0	Á	_	_
+10	.	.	PUNCT	X	_	9	X	_	_
+
+1	Egy	egy	DET	X	_	2	X	_	_
+2	útitárs	útitárs	NOUN	A	_	4	A	_	_
+3	kedves	kedves	ADJ	P	_	4	P	_	_
+4	volt	van	VERB	Á	_	0	Á	_	_
+5	hozzám	én	NOUN|PRON	H	_	4	Háld	_	_
+6	a	a	DET	X	_	7	X	_	_
+7	vonaton	vonat	NOUN	H	_	4	Hhely	_	_
+8	.	.	PUNCT	X	_	7	X	_	_
+
+1	Mégis	mégis	ADV	X	_	3	X	_	_
+2	oly	oly	ADJ|PRON	H	_	3	Hfm	_	_
+3	szép	szép	ADJ	Á	_	0	Á	_	_
+4	az	az	DET	X	_	5	X	_	_
+5	élet	élet	NOUN	A	_	3	A	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	fát	fa	NOUN	T	_	2	T	_	_
+2	nevelek	nevel	VERB	Á	_	0	Á	_	_
+3	.	.	PUNCT	X	_	2	X	_	_
+
+1	Takaród	Takaród	NOUN	T	_	3	T	_	_
+2	hadd	hadd	ADV	Á	_	3	Á	_	_
+3	igazítsam	igazítsam	VERB	Á	_	0	Á	_	_
+4	,	,	PUNCT	X	_	3	X	_	_
+
+1	Homokkal	homok	NOUN	H	_	5	Heszk	_	_
+2	egy	egy	DET	J	_	3	Jmenny	_	_
+3	vödörnyi	vödörnyi	ADJ	J	_	4	Jmenny	_	_
+4	óceánt	óceánt	NOUN	T	_	5	Herdny	_	_
+5	kerítek	kerít	VERB	Á	_	0	Á	_	_
+6	el	el	IK	P	_	5	P	_	_
+7	a	a	DET	X	_	8	X	_	_
+8	semmi	semmi	NOUN	H	_	5	Hcél	_	_
+9	ellen	ellen	NU	P	_	8	P	_	_
+10	.	.	PUNCT	X	_	5	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	gyerekek	gyerek	NOUN	A	_	5	A	_	_
+3	sok	sok	NUM	J	_	4	Jmenny	_	_
+4	papírt	papír	NOUN	T	_	5	T	_	_
+5	gyűjtöttek	gyűjt	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Világosan	világos	ADJ	H	_	2	Hmód	_	_
+2	megmondtam	megmond	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	véleményem	vélemény	NOUN	T	_	2	T	_	_
+5	.	.	PUNCT	X	_	2	X	_	_
+
+1	Kétszer	két	NUM	H	_	2	Hszám	_	_
+2	kettő	kettő	NUM	A	_	3	A	_	_
+3	négy	négy	NUM	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Busszal	busz	NOUN	H	_	2	Heszk	_	_
+2	megyünk	megy	VERB	Á	_	0	Á	_	_
+3	külföldre	külföld	NOUN	H	_	2	Hhely	_	_
+4	.	.	PUNCT	X	_	2	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	váza	váza	NOUN	A	_	4	A	_	_
+3	darabokra	darab	NOUN	H	_	3	Herdny	_	_
+4	törik	tör	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	5	X	_	_
+2	széles	széles	ADJ	J	_	5	Jmin	_	_
+3	,	,	PUNCT	X	_	2	X	_	_
+4	szenes	szenes	ADJ	P	_	2	P	_	_
+5	göröngyök	göröngyök	NOUN	H	_	11	Hhely	_	_
+6	felett	felett	NU	P	_	5	P	_	_
+7	egy	egy	DET	P	_	8	P	_	_
+8	kevés	kevés	NUM	J	_	10	Jmenny	_	_
+9	könnyű	könnyű	ADJ	J	_	10	Jmin	_	_
+10	hamu	hamu	NOUN	A	_	11	A	_	_
+11	remeg	remeg	VERB	Á	_	0	Á	_	_
+12	.	.	PUNCT	X	_	11	X	_	_
+
+1	A	a	DET	X	_	3	X	_	_
+2	diszkózó	diszkózik	VERB	J	_	3	Jmin	_	_
+3	tinédzserek	tinédzser	NOUN	J	_	4	Jbirt	_	_
+4	fele	fel	NOUN	A	_	6	A	_	_
+5	csaknem	csaknem	ADV	X	_	6	X	_	_
+6	halláskárosult	halláskárosult	NOUN	Á	_	0	Á	_	_
+7	már	már	ADV	X	_	6	X	_	_
+8	.	.	PUNCT	X	_	6	X	_	_
+
+1	Egy	egy	DET	X	_	2	X	_	_
+2	ismeretlen	ismeretlen	NOUN	A	_	4	A	_	_
+3	rosszul	rossz	ADJ	H	_	3	Háll	_	_
+4	lett	lesz	VERB	Á	_	0	Á	_	_
+5	az	az	DET	X	_	6	X	_	_
+6	utcán	utca	NOUN	H	_	4	Hhely	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Ifjúságom	ifjúság	NOUN	T	_	8	T	_	_
+2	,	,	PUNCT	X	_	8	X	_	_
+3	e	e	NOUN|PRON	J	_	5	Jkij	_	_
+4	zöld	zöld	ADJ	J	_	5	Jmin	_	_
+5	vadont	vadon	NOUN	J	_	1	Jért	_	_
+6	,	,	PUNCT	X	_	8	X	_	_
+7	szabadnak	szabad	ADJ	H	_	8	Háld	_	_
+8	hittem	hisz	VERB	Á	_	0	Á	_	_
+9	és	és	KOT	X	_	10	X	_	_
+10	öröknek	örök	NOUN	P	_	7	P	_	_
+11	.	.	PUNCT	X	_	8	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	világ	világ	NOUN	J	_	4	Jbirt	_	_
+3	minden	minden	NOUN|PRON	J	_	4	Jmenny	_	_
+4	fényét	fény	NOUN	T	_	8	T	_	_
+5	s	s	KOT	X	_	6	X	_	_
+6	melegét	meleg	NOUN	P	_	4	P	_	_
+7	szórva	szór	VERB	H	_	8	Hmód	_	_
+8	adnám	ad	VERB	Á	_	0	Á	_	_
+9	.	.	PUNCT	X	_	8	X	_	_
+
+1	Hadd	hadd	ADV	Á	_	2	Á	_	_
+2	zengjen	zeng	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	költő	költő	NOUN	A	_	2	A	_	_
+5	ábrándot	ábránd	NOUN	T	_	2	Herdny	_	_
+6	,	,	PUNCT	X	_	2	X	_	_
+7	vigaszt	vigasz	NOUN	T	_	2	Herdny	_	_
+8	,	,	PUNCT	X	_	2	X	_	_
+9	halkat	halk	NOUN	J	_	7	Jért	_	_
+10	.	.	PUNCT	X	_	2	X	_	_
+
+1	Kormos	kormos	ADJ	J	_	2	Jkij	_	_
+2	családnevem	családnév	NOUN	T	_	4	Herdny	_	_
+3	anyámtól	anya	NOUN	H	_	4	Herdt	_	_
+4	örököltem	örököl	VERB	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Harry	Harry	NOUN	P	_	2	P	_	_
+2	Potter	Potter	NOUN	A	_	6	A	_	_
+3	a	a	DET	X	_	5	X	_	_
+4	mai	mai	ADJ	J	_	5	Jmin	_	_
+5	gyerekek	gyerek	NOUN	J	_	6	Jbirt	_	_
+6	regényhőse	regényhős	NOUN	Á	_	0	Á	_	_
+7	.	.	PUNCT	X	_	6	X	_	_
+
+1	Holnapra	holnap	NOUN	H	_	4	Hidő	_	_
+2	fogalmazást	fogalmazás	NOUN	T	_	4	Herdny	_	_
+3	kell	kell	VERB	Á	_	0	Á	_	_
+4	írni	ír	VERB	A	_	3	A	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	Az	az	DET	X	_	3	X	_	_
+2	erkölcsi	erkölcsi	ADJ	J	_	3	Jmin	_	_
+3	törvény	törvény	NOUN	A	_	5	A	_	_
+4	nem	nem	ADV	P	_	5	P	_	_
+5	ismer	ismer	VERB	Á	_	0	Á	_	_
+6	tudóst	tudós	NOUN	T	_	5	T	_	_
+7	és	és	KOT	X	_	8	X	_	_
+8	tudatlant	tudatlan	NOUN	P	_	6	P	_	_
+9	,	,	PUNCT	X	_	8	X	_	_
+10	vagyonost	vagyonos	NOUN	P	_	6	P	_	_
+11	,	,	PUNCT	X	_	10	X	_	_
+12	szegényt	szegény	NOUN	P	_	6	P	_	_
+13	.	.	PUNCT	X	_	12	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	tanár	tanár	NOUN	J	_	3	Jbirt	_	_
+3	beszéde	beszéd	NOUN	A	_	4	A	_	_
+4	gyors	gyors	ADJ	Á	_	0	Á	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Többre	sok	NUM	H	_	3	Háld	_	_
+2	nem	nem	ADV	P	_	3	P	_	_
+3	telik	telik	VERB	Á	_	0	Á	_	_
+4	.	.	PUNCT	X	_	3	X	_	_
+
+1	Hagymával	hagyma	NOUN	H	_	2	Htárs	_	_
+2	készítette	készít	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	lecsót	lecsó	NOUN	T	_	2	Herdny	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	1	X	_	_
+2	gyilkost	gyilkos	NOUN	T	_	3	T	_	_
+3	elítélték	elítél	VERB	Á	_	0	Á	_	_
+4	bűntettéért	bűntettéér	NOUN	H	_	3	Hok	_	_
+5	.	.	PUNCT	X	_	4	X	_	_
+
+1	Este	este	ADV	H	_	4	Hidő	_	_
+2	filmet	film	NOUN	T	_	4	T	_	_
+3	akarok	akar	VERB	Á	_	0	Á	_	_
+4	nézni	néz	VERB	T	_	3	T	_	_
+5	.	.	PUNCT	X	_	3	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	barátnőm	barátnő	NOUN	A	_	5	A	_	_
+3	érdekes	érdekes	ADJ	J	_	4	Jmin	_	_
+4	levelet	levél	NOUN	T	_	5	T	_	_
+5	kapott	kap	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_
+
+1	Miért	miért	ADV|PRON	H	_	2	Hok	_	_
+2	fáj	fáj	VERB	Á	_	0	Á	_	_
+3	a	a	DET	X	_	4	X	_	_
+4	gyomrod	gyomr	NOUN	A	_	2	A	_	_
+5	?	?	PUNCT	X	_	4	X	_	_
+
+1	A	a	DET	X	_	2	X	_	_
+2	kiállításon	kiállítás	NOUN	H	_	5	Hhely	_	_
+3	minden	minden	NOUN|PRON	J	_	4	Jmenny	_	_
+4	képet	kép	NOUN	T	_	5	T	_	_
+5	megnézek	megnéz	VERB	Á	_	0	Á	_	_
+6	.	.	PUNCT	X	_	5	X	_	_

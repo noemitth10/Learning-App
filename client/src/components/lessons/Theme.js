@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom"
-import { TaskContext } from "../tasks/TaskContext";
-import TaskList from "../tasks/TaskList"
 
 import "../../styles/Themes.css"
 
@@ -24,7 +22,7 @@ const Theme = (props) => {
         try {
             const response = await fetch("http://localhost:5000/tasks_with_answers")
             const jsonData = await response.json()
-            console.log(jsonData)
+
             setTasks(jsonData);
         } catch (error) {
             console.error(error.message)
@@ -33,7 +31,6 @@ const Theme = (props) => {
 
       useEffect(() => {
         getTasks();
-        console.log(tasks)
       }, []);
 
 
@@ -41,14 +38,7 @@ const Theme = (props) => {
         tasks.map(task => {
           task.test_id === test_id && task.category === props.location.state.category ?
           list.push(task) : setOtherTasks(task)
-
-          console.log("Kapott: ", test_id)
-          console.log("Task :", task.test_id)
-
-          console.log("Kapott: ", props.location.state.category)
-          console.log("Task :", task.category)
         })
-        console.log(list)
     }
 
     return (
