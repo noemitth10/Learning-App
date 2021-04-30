@@ -46,28 +46,31 @@ const Theme = (props) => {
             <div className="title-container">
                 <h1>{props.location.state.category}</h1>
             </div>
-            <p>{props.location.state.text_of_lesson}</p>
-            <h2>Tesztfeladatok</h2>
-            {
-                    tasks.length == 0 ? 
-                    <p style={{padding: "2%"}}>Nincsenek megjeleníthető tesztfeladatok.</p>
-                    :
-                    testID.map(test => (
-                        <>
-                            <p>
-                                <Link
-                                    onClick={(() => sortTestsByID(test.id))}
-                                    to={{
-                                        pathname: `/test-${test.id}`,
-                                        state: { test_id : test.id,
-                                                tasks: list,
-                                                title: `Feladatsor ${test.id}.` }
-                                    }}
-                                >Feladatsor {test.id}.</Link>
-                            </p>
-                        </>      
-                    ))
-            }      
+            <div style={{padding: "1%"}}>
+                <p>{props.location.state.text_of_lesson}</p>
+                <h2>Tesztfeladatok</h2>
+                {
+                        tasks.length == 0 ? 
+                        <p style={{padding: "2%"}}>Nincsenek megjeleníthető tesztfeladatok.</p>
+                        :
+                        testID.map(test => (
+                            <>
+                                <p>
+                                    <Link
+                                        onClick={(() => sortTestsByID(test.id))}
+                                        to={{
+                                            pathname: `/test-${test.id}`,
+                                            state: { test_id : test.id,
+                                                    tasks: list,
+                                                    title: `Feladatsor ${test.id}.` }
+                                        }}
+                                    >Feladatsor {test.id}.</Link>
+                                </p>
+                            </>      
+                        ))
+                }   
+            </div>
+               
         </>
     )
 }
