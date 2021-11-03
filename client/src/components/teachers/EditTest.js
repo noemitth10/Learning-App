@@ -80,6 +80,7 @@ const EditTest = () => {
     }
 
     const deletefromAnswers = (id, type) => {
+        console.log(id, type)
         const newList = [];
         for (const answer of answersList) {
             if(answer.answer_id != id)
@@ -95,9 +96,16 @@ const EditTest = () => {
             for (let index = 0; index < elements_simple.length; index++)
                 if(elements_simple[index].props.id == "div-" + id) elements_simple.splice(0, index);
 
-        options--;    
+            options--;    
+        } else { 
+            for (let index = 0; index < elements_default.length; index++)
+                if(elements_default[index].props.id == "div-" + id) elements_default.splice(0, index);
+
+            options--; 
         }
 
+        console.log(newList)
+        setAnswers(newList);
     }
 
     const CheckTaskType = ((task_type, options) => {
@@ -111,9 +119,9 @@ const EditTest = () => {
                         <div className="test-padding-container" style={{display : "block"}}>
                             <p>Válasz: </p>
                             <span id="edit-test-answer-simple" className="error-message">A válasz mező üres.</span>
-                            <input type="text" id={answer_id} name="answer_text" placeholder={answer_text} className="form-control my-3" value={answer_text} onChange={e => onChangeAnswer(e)}/>
+                            <input autoComplete="off" type="text" id={answer_id} name="answer_text" placeholder={answer_text} className="form-control my-3" value={answer_text} onChange={e => onChangeAnswer(e)}/>
                             <label>Ez a helyes válasz?</label>
-                            <input type="checkbox" id={answer_id} name="correct" onChange={e => onChangeAnswer(e)}></input><br/>
+                            <input autoComplete="off" type="checkbox" id={answer_id} name="correct" onChange={e => onChangeAnswer(e)}></input><br/>
                             <button id={answer_id} type="button" className="btn btn-danger" onClick={(e) => deletefromAnswers(e.target.id, "simple")}>Törlés</button>
                         </div>
                         </div>
@@ -125,14 +133,14 @@ const EditTest = () => {
                         <div className="test-padding-container">
                                 <p>Kérdés: </p>
                                 <span id="edit-test-question-def" className="error-message">A kérdés mező üres.</span>
-                                <input type="text" id={answer_id} name="question_text" placeholder={question_text} className="form-control my-3" value={question_text} onChange={e => onChangeAnswer(e, input.id)}/><br/>
+                                <input autoComplete="off" type="text" id={answer_id} name="question_text" placeholder={question_text} className="form-control my-3" value={question_text} onChange={e => onChangeAnswer(e, input.id)}/><br/>
                                 
                                 <p>Válasz: </p>
                                 <span id="edit-test-answer-def" className="error-message">A válasz mező üres.</span>
-                                <input type="text" id={answer_id} name="answer_text" placeholder={answer_text} className="form-control my-3" value={answer_text} onChange={e => onChangeAnswer(e, input.id)}/>
+                                <input autoComplete="off" type="text" id={answer_id} name="answer_text" placeholder={answer_text} className="form-control my-3" value={answer_text} onChange={e => onChangeAnswer(e, input.id)}/>
                                 
 
-                                <button type="button" className="btn btn-danger">Törlés</button>
+                                <button id={answer_id} type="button" onClick={(e) => deletefromAnswers(e.target.id, "elements_default")} className="btn btn-danger">Törlés</button>
                         </div>
                         </div>
                     );
@@ -150,7 +158,7 @@ const EditTest = () => {
             console.log(answersList)
             let isAnswer = false;
 
-            const body = { title, test_type, owner_id, class_id, is_public, category, text_of_the_question, points, answersList };
+            const body = { title, test_type, owner_id, is_public, category, text_of_the_question, points, answersList };
 
     
             if(title == undefined || !title.replace(/\s/g, '').length) { document.getElementById("edit-test-title").style.display = "block"; return; }
@@ -212,7 +220,7 @@ const EditTest = () => {
                     <div className="test-padding-container">
                         <span id="edit-test-title" className="error-message">A feladat címének megadása kötelező.</span>
                         <label>Cím: </label>
-                        <input type="text" name="title" placeholder={title} className="form-control my-3" value={title} onChange={e => onChange(e)}/>
+                        <input type="text" name="title" placeholder={title} className="form-control my-3" value={title} autoComplete="off" onChange={e => onChange(e)}/>
                         <label>Ez egy publikus feladat?</label>
                         <input type="checkbox" name="is_public" onChange={e => onChange(e)}></input>
                         <p>Válassza ki az osztályt amelyikhez a feladatot rendelni szeretné: </p>
@@ -222,10 +230,10 @@ const EditTest = () => {
                         </select><br/>
                         <span id="edit-test-category" className="error-message">A feladat kategóriájának megadása kötelező.</span>
                         <p>Kategória: </p>
-                        <input type="text" name="category" placeholder={category} className="form-control my-3" value={category} onChange={e => onChange(e)}/>
+                        <input type="text" name="category" placeholder={category} className="form-control my-3" value={category} autoComplete="off" onChange={e => onChange(e)}/>
                         <span id="edit-test-text" className="error-message">A feladat szövegének megadása kötelező.</span>
                         <p>A feladat szövege: </p>
-                        <textarea name="text_of_the_question" placeholder={text_of_the_question} className="form-control my-3" value={text_of_the_question} onChange={e => onChange(e)}/>
+                        <textarea name="text_of_the_question" placeholder={text_of_the_question} autoComplete="off" className="form-control my-3" value={text_of_the_question} onChange={e => onChange(e)}/>
                         <p>A feladatra kapható pontok összege: </p>
                         <input type="number" name="points" placeholder={points} className="form-control my-3" value={points} onChange={e => onChange(e)}/> 
                     </div>

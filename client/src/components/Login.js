@@ -37,6 +37,8 @@ const Login = ({setAuth}) => {
             }
 
             localStorage.setItem("token", parseRes.token)
+            localStorage.setItem("role", parseRes.role_id);
+            
             setAuth(true);
         } catch (error) {
             console.error(error.message);

@@ -6,6 +6,8 @@ import Pairing_Task from "../tasks/taskTypes/Pairing_Task";
 import DropDownList_Task from "../tasks/taskTypes/DropDownList_Task";
 import TextInput_Task from "../tasks/taskTypes/TextInput_Task";
 
+import "../../styles/Tasks.css"
+
 const MyTest = (props) => {
     let task = props.location.state.task;
     let title = props.location.state.title;

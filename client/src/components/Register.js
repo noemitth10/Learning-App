@@ -73,15 +73,15 @@ const Register = ({setAuth}) => {
         <form onSubmit={onSubmitForm}>
         <span id="missing-error" className="error-message">Hiányzó adatok. A regiszrációhoz töltse ki a csillaggal jelölt mezőket.</span>
         <span id="email-exist-error" className="error-message">Ezzel az email címmel már tegisztráltak.</span>
-            <input type="email" name="email" placeholder="Email cím *" className="form-control my-3" value={email} onChange={e => onChange(e)}/>
+            <input type="email" autoComplete="off" name="email" placeholder="Email cím *" className="form-control my-3" value={email} onChange={e => onChange(e)}/>
             <input type="password" name="password" placeholder="Jelszó *" className="form-control my-3" value={password} onChange={e => onChange(e)}/>
-            <input type="text" name="name" placeholder="Név *" className="form-control my-3" value={name} onChange={e => onChange(e)}/>
+            <input type="text" autoComplete="off" name="name" placeholder="Név *" className="form-control my-3" value={name} onChange={e => onChange(e)}/>
             <input type="date" name="date_of_birth" placeholder="Születési dátum" className="form-control my-3" value={date_of_birth} onChange={e => onChange(e)}/>
             <select className="form-control" id="gender" name="gender" value={gender} onChange={e => onChange(e)}>
                 <option value="Férfi">Férfi</option>
                 <option value="Nő">Nő</option>
             </select>
-            <input type="text" name="city" placeholder="Város" className="form-control my-3" value={city} onChange={e => onChange(e)}/>
+            <input type="text" autoComplete="off" name="city" placeholder="Város" className="form-control my-3" value={city} onChange={e => onChange(e)}/>
             <button className="btn-left btn btn-success">Regisztráció</button>
             <div  className="link">
                 Már van felhasználód? <Link to="/login"><p className="p-link">Kattints ide...</p></Link>

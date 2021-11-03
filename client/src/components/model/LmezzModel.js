@@ -152,7 +152,7 @@ const LmezzModel = () => {
                 <p>Szeretnéd ki próbálni, hogyan képes az <strong>LMEZZ</strong> valós időben elemezni egy általad megadott mondatot? Itt kipróbálhatod!</p>
                 <form onSubmit={onSubmit}>
                     <label> Add meg a mondatot, amit elemezni szeretnél:</label>
-                    <input className="form-control my-3 input-text" type="text" name="sentence"  value={sentence} onChange={e => onChange(e)}/><br/>
+                    <input className="form-control my-3 input-text" type="text" name="sentence"  value={sentence} autoComplete="off" onChange={e => onChange(e)}/><br/>
                     <button className="btn-left btn btn-success model-btn" variant="secondary">Kész</button>
                 </form>
             </div>

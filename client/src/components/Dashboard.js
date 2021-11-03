@@ -69,8 +69,18 @@ const Dashboard = ({setAuth}) => {
             <p>Város: {user.city}</p>
             <p>Pontok: { localStorage.points === 0 ? "0 pont" : localStorage.points + " pont"}</p>    
 
-            <h2>Kezdd el a tanulást!</h2>
-            <button className="btn btn-primary"><Link to="/menu">Kattints ide...</Link></button>
+            {
+                localStorage.role != 3 ?
+                <>
+                    <h2>Kezdd el a tanulást!</h2>
+                    <button className="btn btn-primary"><Link to="/menu">Kattints ide...</Link></button>
+                </> :
+                <>
+                <h2>Kezdd el a tanítást!</h2>
+                <button className="btn btn-primary"><Link to="/teachers">Kattints ide...</Link></button>
+            </>
+            }
+            
         </div>
     </>
     )

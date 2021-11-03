@@ -284,14 +284,14 @@ app.get("/sentences/:sentence_id", async(req, res) => {
 
 app.post("/edit_test", async(req, res) => {
     try {
-        const {title, test_type, owner_id, class_id, is_public, category, text_of_the_question, points, answersList } = req.body;
+        const {title, test_type, owner_id, is_public, category, text_of_the_question, points, answersList } = req.body;
 
         last_test_id = await pool.query("SELECT MAX(test_id) FROM tests");
         let max = last_test_id.rows[0].max;
         max++;
 
         const newTest = await pool.query("INSERT INTO tests (test_id, title, owner_id, class_id, public) VALUES ($1, $2, $3, $4, $5) RETURNING *",
-         [max, title, owner_id, class_id, is_public]
+         [max, title, owner_id, 1, is_public]
         );
 
         last_test = await pool.query("SELECT test_id, title FROM tests ORDER BY test_id DESC LIMIT 1");

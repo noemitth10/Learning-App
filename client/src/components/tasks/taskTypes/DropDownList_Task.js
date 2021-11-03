@@ -118,7 +118,7 @@ const DropDownList_Task = ({
                         show={modalShow}
                         onHide={addModalClose}
                         modalTitle={"Jó válasz."}
-                        modalHeader={"Gratulálunk! Minden válaszod helyes." + points + " pontban részesülsz."}
+                        modalHeader={"Gratulálunk! Minden válaszod helyes. " + points + " pontban részesülsz."}
                         />
                     </ButtonToolbar>
             </div>        

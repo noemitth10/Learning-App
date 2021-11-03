@@ -40,7 +40,7 @@ const Simple_Task = ({
     const correctAnswer = (value, text) => {
         if (value == true) {
           setModalTitle("Sikerült.");
-          setModalHeader("Gratulálunk! A válaszod helyes." + points + " pontban részesülsz.");
+          setModalHeader("Gratulálunk! A válaszod helyes. " + points + " pontban részesülsz.");
           setModalText("A helyes válasz: " + text);
           var count = parseInt(localStorage.points) + points;
           localStorage.setItem("points", count);
@@ -79,7 +79,7 @@ const Simple_Task = ({
               </div>
             </div>
             <p className="text">{text_of_the_question}</p>
-            <div className="question">
+            <div className="question" style={{marginLeft: "0"}}>
                 {answers.map((answer) => (
                 <button className="answerButton"
                     onClick={() => correctAnswer(answer.correct, answer.answer_text)}
