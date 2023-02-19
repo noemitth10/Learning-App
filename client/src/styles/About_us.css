@@ -33,3 +33,14 @@
     object-fit: cover;
     border-radius: 50%;
   }
+
+@media (max-width: 542px) {
+    .left {
+        padding-top: 10px;
+        width: 100%; 
+    }
+
+    .right {
+        width: 100%; 
+    }
+}

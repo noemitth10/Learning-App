@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom";
-import * as moment from 'moment'
-import { Button, Alert, ButtonToolbar } from "react-bootstrap";
 import AddModal from "./tasks/taskTypes/AddModal"
-import {Redirect} from 'react-router-dom';
 
 import "../styles/User_profile.css"
 
@@ -58,7 +55,9 @@ const UpdateUser = ({setAuth}) => {
             <h1>Profil adatok szerkesztése</h1>
         </div>
         <div className="container-right">
-            <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" alt="Userpicture"/>
+            <div className="image">
+                <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" alt="Userpicture"/>
+            </div>
             <div className="buttons">
                 <button className="btn btn-primary logout-button" disabled>Profilkép szerkesztése</button>
                 <button className="btn btn-primary logout-button"><Link to="/dashboard">Vissza</Link></button>

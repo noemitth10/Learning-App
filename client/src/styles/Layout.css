@@ -1,29 +1,76 @@
+.navbar {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
 nav {
-  margin: 10px 15% 50px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 3px solid #ddd;
-  overflow: hidden;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(230, 133, 53);
+  flex: 1 1 auto;
 }
 
 .logo {
   margin-right: auto;
   font-family: 'Bangers', cursive;
   font-size: 60px;
-  color: #0a58ca;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  padding-left: 35px;
 }
 
-nav a {
-  margin-left: 12px;
-  font-size: 22px;
+nav ul {
+  float: right;
+  margin-right: 20px;
+  padding-inline-start: 0px;
 }
 
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.logo:hover {
+  color: white;
+}
+
+li a:hover {
+  background-color: white;
+  transition: .5s;
+  color: rgb(230, 133, 53);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
 
 .title-container {
   width: 100%;
-  background-color: #d9d9d9;
+  background-color: #FCBF49;
   padding: 4px 15px;
   color: white;
   text-shadow: 2px 2px 4px grey;
@@ -55,32 +102,6 @@ nav a {
   width: 100%;
 }
 
-.image-container {
-  position: relative;
-  width: 100%;
-  max-height: 600px;
-}
-
-.image-container .btn {
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 19px;
-  padding: 20px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 25px;
-  text-align: center;
-}
-
-.image-container .btn:hover {
-  background-color: black;
-}
-
 .bottom-left {
   max-width: 80%;
   position: absolute;
@@ -92,17 +113,133 @@ nav a {
   font-weight: 500;
 }
 
+.main-container {
+  height: 100vh;
+  background-color: rgb(230, 133, 53);
+}
+
+
+.main-container .text {
+  color: #FEFEFE;
+  padding: 5% 5%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-container .buttons {
+  margin-top: 0;
+}
+
+.main-container .buttons div {
+  width: 100%;
+}
+
+.main-container .buttons .btn {
+  background-color: #F9C74F;
+  color: #FEFEFE;
+  width: 250px;
+  margin: 2% 25%;
+  width: 50%;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
 .footer {
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 10vh;
-  margin-top: auto;
-  background-color: #353535;
+  background-color: #FCBF49;
   color: white;
   text-align: center;
+  font-family: 'Kanit', sans-serif;
 }
 
 .footer p {
-  padding-top: 20px;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media (max-width: 925px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 200;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) { 
+  .container {
+    margin-bottom: 5%;
+  }
+
+  .checkbtn {
+    display: block;
+    margin-right: 10px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCBF49;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover {
+    background: none;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  .title-container {
+    padding: 4px 5px;
+  }
+
+  .title-container .left {
+    width: 60%;
+  }
+  
+  .title-container .right {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 457px) {
+  .title-container .left {
+    width: 100%;
+  }
+  
+  .title-container .right {
+    width: 100%;
+    float: left;
+  }
+
+  .title-container .right .points {
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) { 
+  .container {
+    margin-bottom: 0;
+  }
+
 }

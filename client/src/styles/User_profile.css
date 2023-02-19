@@ -7,7 +7,7 @@ img {
 
 .title-container {
     width: 100%;
-    background-color: #d9d9d9;
+    background-color: #FCBF49;
     padding: 4px 15px;
     color: white;
     text-shadow: 2px 2px 4px grey;
@@ -27,6 +27,10 @@ img {
     padding-top: 2%;
 }
 
+.container-left p, .container-left h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .container-right {
     width: 40%;
     padding-top: 2%;
@@ -34,8 +38,24 @@ img {
     float: right;
 }
 
-.buttons {
+.container-right .buttons button {
+    background-color: #F9C74F;
+    color: #FEFEFE;
+    width: 40%;
+    padding: 10px;
     margin-top: 6%;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.start-btn {
+    background-color: #F8961E;
+    color: #FEFEFE;
+    width: 200px;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
 }
 
 .logout-button {
@@ -43,4 +63,58 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+}
+
+@media (max-width: 536px) {
+    .container-left {
+        width: 100%;
+    }
+
+    .container-right {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .container-right .buttons {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    .container-right {
+        position: relative;
+    }
+
+    .container-right .image {
+        width: 50%;
+        float: left;
+    }
+
+    .container-right .image img {
+        width: 90%;
+        padding: 2% 0;
+    }
+
+    .container-right .buttons {
+        width: 50%;
+        float: right;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        text-align: center;
+    }
+
+    .container-right .buttons button {
+        width: 60%;
+        text-align: center;
+    }
+
+    .container-right .buttons button:first-child {
+        margin-top: 20%;
+    }
+
+    .start-btn {
+        margin-left: 20%;
+    }
 }

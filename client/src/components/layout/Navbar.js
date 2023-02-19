@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import "../../styles/Layout.css"
 
 const Navbar = ({isAuthenticated, setAuth, role}) => {
@@ -13,47 +12,43 @@ const Navbar = ({isAuthenticated, setAuth, role}) => {
         setAuth(false);
     }
 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-    }
-
     return (
-        <>
+        <div classname="navbar">
             <nav>
-                <div className="logo">
-                    <a className="logo" href="/">LMEZZ</a>
-                </div>
-                    <a href="/analyse">Elemezz!</a>
-                    <a href="/about">Rólunk</a>
-                    <a href="/menu">Menü</a>
-                    {
-                        role == 3 && isAuthenticated ? 
-                            <a href="/teachers">Tanároknak</a>  
-                        :
-                            ""
-                    }
-                    {
-                        isAuthenticated ? 
-                            <a href="/dashboard">Profil</a> 
-                        :
-                            ""
-                    }
-                    {
-                        isAuthenticated ? 
-                            <a href="/" onClick={e => logout(e)}>Kilépés</a>   
-                        :
-                            <div>
-                                <a href="/login">Belépés</a>
-                                <a href="/register">Regisztráció</a>
-                            </div>
-                    }
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                 <i class="fa fa-bars" aria-hidden="true"></i>
+                </label>
+                <a className="logo" href="/">LMEZZ</a>
+                    <ul>
+                        <li><a href="/analyse">Elemezz!</a></li>
+                        <li><a href="/about">Rólunk</a></li>
+                        <li><a href="/menu">Menü</a></li>
+                        {
+                            role == 3 && isAuthenticated ? 
+                                <li><a href="/teachers">Tanároknak</a></li>
+                            :
+                                ""
+                        }
+                        {
+                            isAuthenticated ? 
+                                <li><a href="/dashboard">Profil</a></li>
+                            :
+                                ""
+                        }
+                        {
+                            isAuthenticated ? 
+                                <li><a href="/" onClick={e => logout(e)}>Kilépés</a></li>
+                            :
+                                <>
+                                    <li><a href="/login">Belépés</a></li>
+                                    <li><a href="/register">Regisztráció</a></li>
+                                </>
+                        }
+                    </ul>
+                    
             </nav>
-        </>
+        </div>
     )
 }
 export default Navbar;

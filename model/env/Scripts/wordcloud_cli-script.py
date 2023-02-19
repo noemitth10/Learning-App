@@ -1,4 +1,4 @@
-#!d:\projects\szakdolgozat\learning-app\model\env\scripts\python.exe
+#!D:\Personal projects\Learning-App\model\env\scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'wordcloud==1.8.1','console_scripts','wordcloud_cli'
 import re
 import sys

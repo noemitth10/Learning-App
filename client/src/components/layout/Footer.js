@@ -6,8 +6,8 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <p>
-                    Copyright @ 2021 LMEZZ<br/>
-                Eszterházy Károly Egyetem -
+                    Copyright @ 2023 LMEZZ<br/>
+                Eszterházy Károly Katolikus Egyetem -
                 Pázmány Péter Katolikus Egyetem Nyelvtechnológiai Kutatócsoport
                 </p>
             </footer>

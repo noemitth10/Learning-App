@@ -225,8 +225,8 @@ const EditTest = () => {
                         <input type="checkbox" name="is_public" onChange={e => onChange(e)}></input>
                         <p>Válassza ki az osztályt amelyikhez a feladatot rendelni szeretné: </p>
                         <select className="form-control" id="class_id" name="class_id" value={class_id} onChange={e => onChange(e)}>
-                            <option value="simple">Nincs megadva.</option>
                             <option value="simple">1/A - Budapesti Általános Iskola</option>
+                            <option value="simple">Nincs megadva.</option>
                         </select><br/>
                         <span id="edit-test-category" className="error-message">A feladat kategóriájának megadása kötelező.</span>
                         <p>Kategória: </p>

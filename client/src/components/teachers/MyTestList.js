@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { BrowserRouter as Router, Link } from "react-router-dom"
-import * as moment from 'moment'
-
-import Simple_Task from "../tasks/taskTypes/Simple_Task";
-import Glazed_Task from "../tasks/taskTypes/Glazed_Task";
-import Pairing_Task from "../tasks/taskTypes/Pairing_Task";
-import DropDownList_Task from "../tasks/taskTypes/DropDownList_Task";
-import TextInput_Task from "../tasks/taskTypes/TextInput_Task";
 import AddModal from "../tasks/taskTypes/AddModal"
 
 import "./teachers.css"

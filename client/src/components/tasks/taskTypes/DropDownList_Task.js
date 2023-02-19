@@ -1,5 +1,5 @@
-import React, { useState, useContext } from "react";
-import { Button, Alert, ButtonToolbar } from "react-bootstrap";
+import React from "react";
+import { ButtonToolbar } from "react-bootstrap";
 import AddModal from "./AddModal"
 import "../../../styles/Layout.css"
 import "../../../styles/Tasks.css"
@@ -126,15 +126,3 @@ const DropDownList_Task = ({
     )
   }
   export default DropDownList_Task;
-
-  /*
-  <form>
-                            <select className="form-control" id={answer.answer_id} name={answer.answer_id}>
-                                {
-                                    subjectiveTypes.map((type) => {
-                                        <option value={type.type_name}>{type.type_name}</option>
-                                    })
-                                }
-                            </select>
-                            </form>
-  */

@@ -1,4 +1,4 @@
-#!d:\projects\szakdolgozat\learning-app\model\env\scripts\python.exe
+#!D:\Personal projects\Learning-App\model\env\scripts\python.exe
 from __future__ import with_statement
 import os
 import sys

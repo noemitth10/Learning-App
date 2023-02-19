@@ -29,7 +29,7 @@ const TaskList = (props, {setAuth}) => {
     const Header = componentOf[comp_category.toLowerCase()];
 
     return (
-        <>
+      <>
             {
               <Header
                 id={current.id}
@@ -44,24 +44,24 @@ const TaskList = (props, {setAuth}) => {
                 array={current.choice_array}
               />
             }
-    <p className="test-length">Tesztfeladatok: {index + 1}/{len}</p>
-    <button className="pacingButton"
-        disabled={index >= 1 ? false : true}
-        onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
-      >
-        Előző
-      </button>
-      <button className="pacingButton"
-        value="click"
-        disabled={index + 1 < len ? false : true}
-        onClick={
-          index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
-        }
-        style={{ float: "right" }}
-      >
-        Következő
-      </button>
-        </>
+            <p className="test-length">Tesztfeladatok: {index + 1}/{len}</p>
+            <button className="pacingButton"
+                disabled={index >= 1 ? false : true}
+                onClick={index >= 1 ? () => setIndex(index - 1) : () => setIndex(index)}
+              >
+                Előző
+              </button>
+              <button className="pacingButton"
+                value="click"
+                disabled={index + 1 < len ? false : true}
+                onClick={
+                  index + 1 < len ? () => setIndex(index + 1) : () => setIndex(index)
+                }
+                style={{ float: "right" }}
+              >
+                Következő
+              </button>
+      </>
     )
 }
 export default TaskList;

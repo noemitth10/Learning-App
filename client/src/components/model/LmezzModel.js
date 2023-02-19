@@ -85,42 +85,42 @@ const LmezzModel = () => {
                     break;
                 case "A":
                     lab = "alany"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#ff8566", border: "2px solid #ff3300"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#F9C74F"}}>
                                     <h4 style={{ textDecorationLine: "underline", textDecorationSkipInk: "none", textDecorationStyle: "solid"}}>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
                     break;
                 case "T": 
                     lab = "tárgy"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#ffff80", border: "2px solid #de9a26"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#F94144"}}>
                                     <h4 style={{ textDecorationLine: "underline",textDecorationStyle: "dashed", textDecorationSkipInk: "none"}}>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
                     break;
                 case "H": 
                     lab = "határozó"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#b3ecff", border: "2px solid #1ac6ff"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#277DA1"}}>
                                    <h4 style={{ textDecorationLine: "underline",textDecorationStyle: "wavy", textDecorationSkipInk: "none"}}>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
                     break;
                 case "J": 
                     lab = "jelző"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#d9b3ff", border: "2px solid #a64dff"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#43AA8B"}}>
                                     <h4 style={{ textDecorationLine: "underline",textDecorationStyle: "dotted", textDecorationSkipInk: "none"}}>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
                     break;
                 case "P": 
                     lab = "nem elemezzük"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#d9d9d9", border: "2px solid #808080"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#4D908E"}}>
                                     <h4>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
                     break;
                 case "X":
                     lab = "nem elemezzük"
-                    temp_div = <div className="fancy_box" style={{backgroundColor: "#d9d9d9", border: "2px solid #808080"}}>
+                    temp_div = <div className="fancy_box" style={{backgroundColor: "#4D908E"}}>
                                     <h4>{text}</h4>
                                     <p>{lab}</p>
                                 </div>
@@ -137,7 +137,7 @@ const LmezzModel = () => {
         return (
             <div>
                 {taggedSentence &&
-                    <p>{word_div}</p>
+                    <>{word_div}</>
                 }
             </div>
         )
@@ -152,11 +152,11 @@ const LmezzModel = () => {
                 <p>Szeretnéd ki próbálni, hogyan képes az <strong>LMEZZ</strong> valós időben elemezni egy általad megadott mondatot? Itt kipróbálhatod!</p>
                 <form onSubmit={onSubmit}>
                     <label> Add meg a mondatot, amit elemezni szeretnél:</label>
-                    <input className="form-control my-3 input-text" type="text" name="sentence"  value={sentence} autoComplete="off" onChange={e => onChange(e)}/><br/>
-                    <button className="btn-left btn btn-success model-btn" variant="secondary">Kész</button>
+                    <input className="form-control my-3 input-text" type="text" name="sentence"  value={sentence} autoComplete="off" onChange={e => onChange(e)}/>
+                    <button className="btn-left btn model-btn" variant="secondary">Kész</button>
                 </form>
             </div>
-            <h4 style={{paddingLeft: "2%", marginBottom: "2%"}}>Elemzett mondat:</h4>
+            <h4 style={{paddingLeft: "2%", marginBottom: "2%"}}>Eredmény:</h4>
             <div className="model-output">
                 {
                     returnWithSentence()

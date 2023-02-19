@@ -183,6 +183,7 @@ INSERT INTO answers (task_id, answer_text, correct) VALUES (
 	"false"
 );
 
+INSERT INTO users (role_id, email, password) VALUES ( 3, 'teacher@gmail.com', 'teacher');
 
 INSERT INTO lessons (category, text_of_lesson, level) VALUES ('Az állítmány', 
 'Az állítmány a tagolt mondat központi szerepű mondatrésze. Az alany az a mondatrész, amely megnevezi azt a dolgot, személyt, amelyre az állítmány megállapítása vonatkozik.

@@ -1,7 +1,5 @@
-import React, { Fragment, useEffect, useState, useContext } from "react";
-import { TaskContext } from "../tasks/TaskContext";
-import Theme from "./Theme"
-import { BrowserRouter as Router, Link } from "react-router-dom"
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom"
 
 import "../../styles/Themes.css"
 import iconImage from "./image_2.png";
@@ -55,12 +53,3 @@ const Menu = (props) => {
     )
 }
 export default Menu;
-
-/*
-{lessons.map(lesson => (
-                  <>
-                    <p>{lesson.category}</p>
-                    {lesson.text_of_lesson}
-                  </>  
-                ))}
-*/

@@ -54,7 +54,9 @@ const Dashboard = ({setAuth}) => {
             <h1>Helló, {name}</h1>
         </div>
         <div className="container-right">
-            <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" alt="Userpicture"/>
+            <div className="image">
+                <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" alt="Userpicture"/>
+            </div>
             <div className="buttons">
                 <button className="btn btn-primary logout-button"><Link to="/update">Profil szerkesztése</Link></button>
                 <button className="btn btn-primary logout-button" onClick={e => logout(e)}>Kilépés</button>
@@ -63,21 +65,21 @@ const Dashboard = ({setAuth}) => {
         </div>
         <div className="container-left">
             <h2>Személyes adatok</h2>
-            <p>Email cím: {user.email}</p>
-            <p>Születési dátum: {birthDate}</p>
-            <p>Nem: {user.gender}</p>
-            <p>Város: {user.city}</p>
-            <p>Pontok: { localStorage.points === 0 ? "0 pont" : localStorage.points + " pont"}</p>    
+            <p><b>Email cím:</b> {user.email}</p>
+            <p><b>Születési dátum:</b> {birthDate}</p>
+            <p><b>Nem:</b> {user.gender}</p>
+            <p><b>Város:</b> {user.city}</p>
+            <p><b>Pontok:</b> { localStorage.points === 0 ? "0 pont" : localStorage.points + " pont"}</p>    
 
             {
                 localStorage.role != 3 ?
                 <>
                     <h2>Kezdd el a tanulást!</h2>
-                    <button className="btn btn-primary"><Link to="/menu">Kattints ide...</Link></button>
+                    <button className="btn btn-primary start-btn"><Link to="/menu">Kattints ide...</Link></button>
                 </> :
                 <>
                 <h2>Kezdd el a tanítást!</h2>
-                <button className="btn btn-primary"><Link to="/teachers">Kattints ide...</Link></button>
+                <button className="btn btn-primary start-btn"><Link to="/teachers">Kattints ide...</Link></button>
             </>
             }
             
